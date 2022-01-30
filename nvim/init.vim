@@ -23,13 +23,14 @@ set wildmenu
 set autochdir
 
 
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+" inoremap " ""<left>
+" inoremap ' ''<left>
+" inoremap ( ()<left>
+" inoremap [ []<left>
+" inoremap < <><left>
+" inoremap { {}<left>
+" inoremap {<CR> {<CR>}<ESC>O
+" inoremap {;<CR> {<CR>};<ESC>O
 
 set tabstop=4
 set shiftwidth=4
@@ -55,12 +56,14 @@ autocmd FileType netrw setl bufhidden=delete
 " plug 
 call plug#begin()
     "> Must Have
+	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
     Plug 'vim-airline/vim-airline'" https://github.com/vim-airline/vim-airline
     Plug 'ctrlpvim/ctrlp.vim'      " https://github.com/ctrlpvim/ctrlp.vim
     Plug 'ryanoasis/vim-devicons'  " https://github.com/ryanoasis/vim-devicons + https://github.com/ryanoasis/nerd-fonts/
     Plug 'tpope/vim-commentary'    " https://github.com/tpope/vim-commentary
     Plug 'airblade/vim-gitgutter'  " https://github.com/airblade/vim-gitgutter
     Plug 'mkitt/tabline.vim'       " https://github.com/mkitt/tabline.vim
+	" Plug 'townk/vim-autoclose'
     
     "> Go
     Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' } " https://github.com/fatih/vim-go
@@ -91,7 +94,9 @@ colorscheme PaperColor
 
 "-- papercolor-theme END 
 "
-""-- vim-go specific configuration
+"-- vim-go specific configuration
 
 source ~/.config/nvim/langs/go.vim
 source ~/.config/nvim/langs/ts.vim
+
+

@@ -1,1 +1,2139 @@
-{}
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234"
+      },
+      "expiry": 1643049764611
+    },
+    "/opt/homebrew/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "3b92abb9fb0073136a3302ca2885c6d0aef231404f788189b0476040da852d7703320a464cd6b80b96902c47655a155fdd958ec459b9e566645bda9660af991e"
+      },
+      "expiry": 1643049764524
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234"
+      },
+      "expiry": 1643049764600
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234"
+      },
+      "expiry": 1643049764624
+    },
+    "/opt/homebrew/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "4a7a4c0b73915b25f809fb0257e6a261138673d9d14a3af1b131c64ad33f36419f51b3bb2e0763a68e631248b2ab5b1604624a5761ba2c914e4e723a575e1169"
+      },
+      "expiry": 1643049764522
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234"
+      },
+      "expiry": 1643049764623
+    },
+    "/opt/homebrew/opt/python@3.9/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/opt/python@3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "877a11763be1a791210068b030f105637dd542bf9956cf75d00449390600d0c75d8c36fac07b6e2963931a6dc0b73be6e6c19a5b78899106e92866851baf3ede"
+      },
+      "expiry": 1643049764636
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "bbe5a800afbe40978f035faf57f09dcd953f65826f3dd1a2b063a545bca56746816515c66bd806f6c832071a4d053469787f99a34f71916499310b3c05463f7a",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.9-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.9-final"
+      },
+      "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+      "fileHash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.9-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.9-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "877a11763be1a791210068b030f105637dd542bf9956cf75d00449390600d0c75d8c36fac07b6e2963931a6dc0b73be6e6c19a5b78899106e92866851baf3ede",
+      "type": "Unknown"
+    },
+    "/opt/homebrew/opt/python@3.9/bin/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "877a11763be1a791210068b030f105637dd542bf9956cf75d00449390600d0c75d8c36fac07b6e2963931a6dc0b73be6e6c19a5b78899106e92866851baf3ede",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/opt/python@3.9/bin/python3.9",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.9-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.9-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "877a11763be1a791210068b030f105637dd542bf9956cf75d00449390600d0c75d8c36fac07b6e2963931a6dc0b73be6e6c19a5b78899106e92866851baf3ede",
+          "type": "Unknown",
+          "displayName": "Python 3.9.9 64-bit",
+          "__store": true
+        }
+      },
+      "expiry": 1643049765627
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234"
+      },
+      "expiry": 1643049764599
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "bbe5a800afbe40978f035faf57f09dcd953f65826f3dd1a2b063a545bca56746816515c66bd806f6c832071a4d053469787f99a34f71916499310b3c05463f7a",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "3f4b389402103255772d113accabca6969d428b19e2844b2fc7e22864c7d79f3e2c0a308c06e7c51c6edf964210e8a39d31d8593fd85058a20fab7fa2e549b23",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "3b92abb9fb0073136a3302ca2885c6d0aef231404f788189b0476040da852d7703320a464cd6b80b96902c47655a155fdd958ec459b9e566645bda9660af991e",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "4a7a4c0b73915b25f809fb0257e6a261138673d9d14a3af1b131c64ad33f36419f51b3bb2e0763a68e631248b2ab5b1604624a5761ba2c914e4e723a575e1169",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "type": "Unknown"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/opt/homebrew/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.9 64-bit",
+        "hash": "3b92abb9fb0073136a3302ca2885c6d0aef231404f788189b0476040da852d7703320a464cd6b80b96902c47655a155fdd958ec459b9e566645bda9660af991e-db6d26bab03b922b5339a30b68f30567"
+      },
+      "expiry": 1643049765620
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234-cfaba57628b2ec2ec746c04283b5d862"
+      },
+      "expiry": 1643049765621
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.9 64-bit",
+        "hash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234-67279150eb076fe625636d7e709d3327"
+      },
+      "expiry": 1643049765623
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234-1336eb6d782bf8725f9abf9e9eb2b7c2"
+      },
+      "expiry": 1643049765624
+    },
+    "/opt/homebrew/opt/python@3.9/bin/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.9 64-bit",
+        "hash": "877a11763be1a791210068b030f105637dd542bf9956cf75d00449390600d0c75d8c36fac07b6e2963931a6dc0b73be6e6c19a5b78899106e92866851baf3ede-b0c5674ca4b83e1756a7926af1de2c6e"
+      },
+      "expiry": 1643049765644
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.9-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.9-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "3b92abb9fb0073136a3302ca2885c6d0aef231404f788189b0476040da852d7703320a464cd6b80b96902c47655a155fdd958ec459b9e566645bda9660af991e",
+      "type": "Unknown",
+      "displayName": "Python 3.9.9 64-bit"
+    },
+    "/opt/homebrew/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "3b92abb9fb0073136a3302ca2885c6d0aef231404f788189b0476040da852d7703320a464cd6b80b96902c47655a155fdd958ec459b9e566645bda9660af991e",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.9-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.9-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "3b92abb9fb0073136a3302ca2885c6d0aef231404f788189b0476040da852d7703320a464cd6b80b96902c47655a155fdd958ec459b9e566645bda9660af991e",
+          "type": "Unknown",
+          "displayName": "Python 3.9.9 64-bit"
+        }
+      },
+      "expiry": 1643049765634
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1643049765637
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.9-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.9-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+          "type": "Unknown",
+          "displayName": "Python 3.8.9 64-bit"
+        }
+      },
+      "expiry": 1643049765640
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "e3699d3435e3894a1a6a38f014f74b7816cd7e90f90e654ddb9b1c268772b5baa0076a582dfbcceaeac348150784dbb76a08e17e6913347a68dbddd923154234",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1643049765642
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.9-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.9-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "3b92abb9fb0073136a3302ca2885c6d0aef231404f788189b0476040da852d7703320a464cd6b80b96902c47655a155fdd958ec459b9e566645bda9660af991e",
+      "type": "Unknown",
+      "displayName": "Python 3.9.9 64-bit"
+    },
+    "ProposeLSBanner": false,
+    "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+        "fileHash": "6482cd74e4cfa8659fa527d731ff58413aff6b18fa348dcad9b1c8fda2261b961b7277acb9341dfb6227fb3f65e8c326d1c37f9883cb26f67a40e140b80c2594"
+      },
+      "expiry": 1642237216657
+    },
+    "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+        "fileHash": "8c79c747440da94e9e98b594f97e521a03be0f7873cca8930fd982d64a7ac67221f2fffc85e05479f9f7f7971c11645c04a33062d9d7550765380a42e3ef94fc"
+      },
+      "expiry": 1642237216658
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.9-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.9-final"
+      },
+      "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+      "fileHash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a",
+      "type": "VirtualEnv"
+    },
+    "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+        "fileHash": "338f86dd950e6bc2102c587cc52025141dbc0c0248db9d2eef6f98533fbb91378d1f7dcff032f9c5b5b9c52a4fa5394f62089497d2ef38424b3c51c1e8565aec"
+      },
+      "expiry": 1642237216657
+    },
+    "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.9 64-bit ('.venv': venv)",
+        "hash": "8c79c747440da94e9e98b594f97e521a03be0f7873cca8930fd982d64a7ac67221f2fffc85e05479f9f7f7971c11645c04a33062d9d7550765380a42e3ef94fc-7249fc08fbb67cbdd09d30a44006f27b"
+      },
+      "expiry": 1642237220861
+    },
+    "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "6482cd74e4cfa8659fa527d731ff58413aff6b18fa348dcad9b1c8fda2261b961b7277acb9341dfb6227fb3f65e8c326d1c37f9883cb26f67a40e140b80c2594"
+      },
+      "expiry": 1642237216646
+    },
+    "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "8c79c747440da94e9e98b594f97e521a03be0f7873cca8930fd982d64a7ac67221f2fffc85e05479f9f7f7971c11645c04a33062d9d7550765380a42e3ef94fc",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.9-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.9-final"
+          },
+          "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+          "fileHash": "8c79c747440da94e9e98b594f97e521a03be0f7873cca8930fd982d64a7ac67221f2fffc85e05479f9f7f7971c11645c04a33062d9d7550765380a42e3ef94fc",
+          "envName": ".venv",
+          "type": "Venv",
+          "displayName": "Python 3.9.9 64-bit ('.venv': venv)"
+        }
+      },
+      "expiry": 1642237220863
+    },
+    "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.9 64-bit ('.venv': venv)",
+        "hash": "6482cd74e4cfa8659fa527d731ff58413aff6b18fa348dcad9b1c8fda2261b961b7277acb9341dfb6227fb3f65e8c326d1c37f9883cb26f67a40e140b80c2594-ce2fe145539748a3cbd753fa96e83ba7"
+      },
+      "expiry": 1642237216661
+    },
+    "InterpreterAutoSeletionRule-workspaceEnvs": {
+      "architecture": 3,
+      "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.9-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.9-final"
+      },
+      "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+      "fileHash": "338f86dd950e6bc2102c587cc52025141dbc0c0248db9d2eef6f98533fbb91378d1f7dcff032f9c5b5b9c52a4fa5394f62089497d2ef38424b3c51c1e8565aec",
+      "envName": ".venv",
+      "type": "Venv"
+    },
+    "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+        "fileHash": "4688745d47863deffd7195179e2d73e88a749405c609970a7dd8d28f51f2d01a19f127a101da7ffc3437ca8044f54252e008a4d2b5c8e04607d57ba02379a613"
+      },
+      "expiry": 1642249986556
+    },
+    "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+        "fileHash": "c28a05fb0c48151f4c0096fd7054c878c761e4c12b3faba52c272c1a581fae9a81ad1bfaafeecaa7c02e5ada491834455cf637679b7f4bbfd0c3090a274a4f71"
+      },
+      "expiry": 1642249986560
+    },
+    "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+        "fileHash": "3a727852cc922502ed9f567ca261e96cbb7adda74a52b822a64b21f9295ff780c1d7f3d6f91a229ffdf75962e5bcb22a1af7493cd6dba8e6bf7a0e0de6a88d69"
+      },
+      "expiry": 1642249986558
+    },
+    "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.9 64-bit ('.venv': venv)",
+        "hash": "3a727852cc922502ed9f567ca261e96cbb7adda74a52b822a64b21f9295ff780c1d7f3d6f91a229ffdf75962e5bcb22a1af7493cd6dba8e6bf7a0e0de6a88d69-391d989b985f5a0b48957627a141f87f"
+      },
+      "expiry": 1642249990552
+    },
+    "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "c28a05fb0c48151f4c0096fd7054c878c761e4c12b3faba52c272c1a581fae9a81ad1bfaafeecaa7c02e5ada491834455cf637679b7f4bbfd0c3090a274a4f71"
+      },
+      "expiry": 1642249986590
+    },
+    "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "3a727852cc922502ed9f567ca261e96cbb7adda74a52b822a64b21f9295ff780c1d7f3d6f91a229ffdf75962e5bcb22a1af7493cd6dba8e6bf7a0e0de6a88d69",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.9-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.9-final"
+          },
+          "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+          "fileHash": "3a727852cc922502ed9f567ca261e96cbb7adda74a52b822a64b21f9295ff780c1d7f3d6f91a229ffdf75962e5bcb22a1af7493cd6dba8e6bf7a0e0de6a88d69",
+          "envName": ".venv",
+          "type": "Venv",
+          "displayName": "Python 3.9.9 64-bit ('.venv': venv)"
+        }
+      },
+      "expiry": 1642250015267
+    },
+    "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.9 64-bit ('.venv': venv)",
+        "hash": "c28a05fb0c48151f4c0096fd7054c878c761e4c12b3faba52c272c1a581fae9a81ad1bfaafeecaa7c02e5ada491834455cf637679b7f4bbfd0c3090a274a4f71-45f606e8f987814d0b368e96ce721bbc"
+      },
+      "expiry": 1642249986605
+    },
+    "/Users/kotsmile/src/stuff/owners/.venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+        "fileHash": "a3ca0118f25314524a2fedc7e88ed10f1670867caf2a28814cdb80a4d8c6bf6cdac648da92e3d7f6f778dad31057a5ebfcbb4fc0aa0a235e42ad53bfd0f2dd62"
+      },
+      "expiry": 1642851589608
+    },
+    "/Users/kotsmile/src/stuff/owners/.venv/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+        "fileHash": "e733ae49c045213842030d0d38e752d7f9efdbc1b48eece6c29e93655f3525ed9375b637e19603d4b2b05f10c0d9ce1ac67e971972df97f301e93ad7beb856cd"
+      },
+      "expiry": 1642851589644
+    },
+    "/Users/kotsmile/src/stuff/owners/.venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+        "fileHash": "7f579a646cdb487b2d579081f6e83344b159662e736df4db83eb994abc11a212c5d6fd235c3101acb6528ab84aae182bd1f0f697e1b4c967d05377600c08d4fd"
+      },
+      "expiry": 1642851589608
+    },
+    "/Users/kotsmile/src/stuff/owners/.venv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "a3ca0118f25314524a2fedc7e88ed10f1670867caf2a28814cdb80a4d8c6bf6cdac648da92e3d7f6f778dad31057a5ebfcbb4fc0aa0a235e42ad53bfd0f2dd62"
+      },
+      "expiry": 1642851589639
+    },
+    "/Users/kotsmile/src/stuff/owners/.venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.9 64-bit ('.venv': venv)",
+        "hash": "7f579a646cdb487b2d579081f6e83344b159662e736df4db83eb994abc11a212c5d6fd235c3101acb6528ab84aae182bd1f0f697e1b4c967d05377600c08d4fd-bfbcdee9650eb024faf8754366ec7d75"
+      },
+      "expiry": 1642851589657
+    },
+    "/Users/kotsmile/src/stuff/owners/.venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "7f579a646cdb487b2d579081f6e83344b159662e736df4db83eb994abc11a212c5d6fd235c3101acb6528ab84aae182bd1f0f697e1b4c967d05377600c08d4fd",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.9-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.9-final"
+          },
+          "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+          "fileHash": "7f579a646cdb487b2d579081f6e83344b159662e736df4db83eb994abc11a212c5d6fd235c3101acb6528ab84aae182bd1f0f697e1b4c967d05377600c08d4fd",
+          "envName": ".venv",
+          "type": "Venv",
+          "displayName": "Python 3.9.9 64-bit ('.venv': venv)"
+        }
+      },
+      "expiry": 1642851589666
+    },
+    "/Users/kotsmile/src/stuff/owners/.venv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.9 64-bit ('.venv': venv)",
+        "hash": "a3ca0118f25314524a2fedc7e88ed10f1670867caf2a28814cdb80a4d8c6bf6cdac648da92e3d7f6f778dad31057a5ebfcbb4fc0aa0a235e42ad53bfd0f2dd62-3af7bddaa7e42b36f64400a7f3efbe53"
+      },
+      "expiry": 1642851589668
+    },
+    "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "3f4b389402103255772d113accabca6969d428b19e2844b2fc7e22864c7d79f3e2c0a308c06e7c51c6edf964210e8a39d31d8593fd85058a20fab7fa2e549b23"
+      },
+      "expiry": 1643049908064
+    },
+    "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a"
+      },
+      "expiry": 1643049908066
+    },
+    "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "bbe5a800afbe40978f035faf57f09dcd953f65826f3dd1a2b063a545bca56746816515c66bd806f6c832071a4d053469787f99a34f71916499310b3c05463f7a"
+      },
+      "expiry": 1643049908070
+    },
+    "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.9 64-bit ('.venv': venv)",
+        "hash": "bbe5a800afbe40978f035faf57f09dcd953f65826f3dd1a2b063a545bca56746816515c66bd806f6c832071a4d053469787f99a34f71916499310b3c05463f7a-cba5211469bf42b75f7f8a57223f20e7"
+      },
+      "expiry": 1643049917178
+    },
+    "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a"
+      },
+      "expiry": 1643049908110
+    },
+    "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "bbe5a800afbe40978f035faf57f09dcd953f65826f3dd1a2b063a545bca56746816515c66bd806f6c832071a4d053469787f99a34f71916499310b3c05463f7a",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.9-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.9-final"
+          },
+          "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+          "fileHash": "bbe5a800afbe40978f035faf57f09dcd953f65826f3dd1a2b063a545bca56746816515c66bd806f6c832071a4d053469787f99a34f71916499310b3c05463f7a",
+          "envName": ".venv",
+          "type": "Venv",
+          "displayName": "Python 3.9.9 64-bit ('.venv': venv)"
+        }
+      },
+      "expiry": 1643049917191
+    },
+    "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.9 64-bit ('.venv': venv)",
+        "hash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a-aba739c17b2b1a0bfa9bd1375e0c88e6"
+      },
+      "expiry": 1643049908127
+    }
+  },
+  "coc-python|/Users/kotsmile/src/stuff/python-google-parse": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:47d6b7ae0f8e40cf529b50b16f20553f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:47d6b7ae0f8e40cf529b50b16f20553f": [
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+        "fileHash": "8c79c747440da94e9e98b594f97e521a03be0f7873cca8930fd982d64a7ac67221f2fffc85e05479f9f7f7971c11645c04a33062d9d7550765380a42e3ef94fc",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+        "fileHash": "6482cd74e4cfa8659fa527d731ff58413aff6b18fa348dcad9b1c8fda2261b961b7277acb9341dfb6227fb3f65e8c326d1c37f9883cb26f67a40e140b80c2594",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+        "fileHash": "338f86dd950e6bc2102c587cc52025141dbc0c0248db9d2eef6f98533fbb91378d1f7dcff032f9c5b5b9c52a4fa5394f62089497d2ef38424b3c51c1e8565aec",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kotsmile/src/stuff/python-google-parse": {
+      "architecture": 3,
+      "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.9-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.9-final"
+      },
+      "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+      "fileHash": "6482cd74e4cfa8659fa527d731ff58413aff6b18fa348dcad9b1c8fda2261b961b7277acb9341dfb6227fb3f65e8c326d1c37f9883cb26f67a40e140b80c2594",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+        "fileHash": "8c79c747440da94e9e98b594f97e521a03be0f7873cca8930fd982d64a7ac67221f2fffc85e05479f9f7f7971c11645c04a33062d9d7550765380a42e3ef94fc",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+        "fileHash": "6482cd74e4cfa8659fa527d731ff58413aff6b18fa348dcad9b1c8fda2261b961b7277acb9341dfb6227fb3f65e8c326d1c37f9883cb26f67a40e140b80c2594",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/python-google-parse/.venv",
+        "fileHash": "338f86dd950e6bc2102c587cc52025141dbc0c0248db9d2eef6f98533fbb91378d1f7dcff032f9c5b5b9c52a4fa5394f62089497d2ef38424b3c51c1e8565aec",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/kotsmile/src/stuff/python-google-parse/.venv/bin/python"
+  },
+  "coc-python|/Users/kotsmile/src/stuff/window-manager": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:99e12fd64ed9584bd4a94eae12bb9bf1": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:99e12fd64ed9584bd4a94eae12bb9bf1": [
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+        "fileHash": "3a727852cc922502ed9f567ca261e96cbb7adda74a52b822a64b21f9295ff780c1d7f3d6f91a229ffdf75962e5bcb22a1af7493cd6dba8e6bf7a0e0de6a88d69",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+        "fileHash": "c28a05fb0c48151f4c0096fd7054c878c761e4c12b3faba52c272c1a581fae9a81ad1bfaafeecaa7c02e5ada491834455cf637679b7f4bbfd0c3090a274a4f71",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+        "fileHash": "4688745d47863deffd7195179e2d73e88a749405c609970a7dd8d28f51f2d01a19f127a101da7ffc3437ca8044f54252e008a4d2b5c8e04607d57ba02379a613",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kotsmile/src/stuff/window-manager": {
+      "architecture": 3,
+      "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.9-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.9-final"
+      },
+      "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+      "fileHash": "c28a05fb0c48151f4c0096fd7054c878c761e4c12b3faba52c272c1a581fae9a81ad1bfaafeecaa7c02e5ada491834455cf637679b7f4bbfd0c3090a274a4f71",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+        "fileHash": "3a727852cc922502ed9f567ca261e96cbb7adda74a52b822a64b21f9295ff780c1d7f3d6f91a229ffdf75962e5bcb22a1af7493cd6dba8e6bf7a0e0de6a88d69",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+        "fileHash": "c28a05fb0c48151f4c0096fd7054c878c761e4c12b3faba52c272c1a581fae9a81ad1bfaafeecaa7c02e5ada491834455cf637679b7f4bbfd0c3090a274a4f71",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/window-manager/.venv",
+        "fileHash": "4688745d47863deffd7195179e2d73e88a749405c609970a7dd8d28f51f2d01a19f127a101da7ffc3437ca8044f54252e008a4d2b5c8e04607d57ba02379a613",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/kotsmile/src/stuff/window-manager/.venv/bin/python3"
+  },
+  "coc-python|/Users/kotsmile/src/stuff/owners": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:518deab9f629403b1812a572ac91d981": [],
+    "SelectedPythonPath": "/Users/kotsmile/src/stuff/owners/.venv/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:518deab9f629403b1812a572ac91d981": [
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+        "fileHash": "7f579a646cdb487b2d579081f6e83344b159662e736df4db83eb994abc11a212c5d6fd235c3101acb6528ab84aae182bd1f0f697e1b4c967d05377600c08d4fd",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+        "fileHash": "a3ca0118f25314524a2fedc7e88ed10f1670867caf2a28814cdb80a4d8c6bf6cdac648da92e3d7f6f778dad31057a5ebfcbb4fc0aa0a235e42ad53bfd0f2dd62",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+        "fileHash": "e733ae49c045213842030d0d38e752d7f9efdbc1b48eece6c29e93655f3525ed9375b637e19603d4b2b05f10c0d9ce1ac67e971972df97f301e93ad7beb856cd",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kotsmile/src/stuff/owners": {
+      "architecture": 3,
+      "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.9-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.9-final"
+      },
+      "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+      "fileHash": "a3ca0118f25314524a2fedc7e88ed10f1670867caf2a28814cdb80a4d8c6bf6cdac648da92e3d7f6f778dad31057a5ebfcbb4fc0aa0a235e42ad53bfd0f2dd62",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+        "fileHash": "7f579a646cdb487b2d579081f6e83344b159662e736df4db83eb994abc11a212c5d6fd235c3101acb6528ab84aae182bd1f0f697e1b4c967d05377600c08d4fd",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+        "fileHash": "a3ca0118f25314524a2fedc7e88ed10f1670867caf2a28814cdb80a4d8c6bf6cdac648da92e3d7f6f778dad31057a5ebfcbb4fc0aa0a235e42ad53bfd0f2dd62",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/owners/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/owners/.venv",
+        "fileHash": "e733ae49c045213842030d0d38e752d7f9efdbc1b48eece6c29e93655f3525ed9375b637e19603d4b2b05f10c0d9ce1ac67e971972df97f301e93ad7beb856cd",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ]
+  },
+  "coc-python|/Users/kotsmile/src/stuff/newsthxbot": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:54d07e92e337396b890ecf64305c3afe": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:54d07e92e337396b890ecf64305c3afe": [
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "bbe5a800afbe40978f035faf57f09dcd953f65826f3dd1a2b063a545bca56746816515c66bd806f6c832071a4d053469787f99a34f71916499310b3c05463f7a",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "3f4b389402103255772d113accabca6969d428b19e2844b2fc7e22864c7d79f3e2c0a308c06e7c51c6edf964210e8a39d31d8593fd85058a20fab7fa2e549b23",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kotsmile/src/stuff/newsthxbot": {
+      "architecture": 3,
+      "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.9-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.9-final"
+      },
+      "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+      "fileHash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "bbe5a800afbe40978f035faf57f09dcd953f65826f3dd1a2b063a545bca56746816515c66bd806f6c832071a4d053469787f99a34f71916499310b3c05463f7a",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "b8149cf0648d769ddbfeb2c015ff06600fa22cdc35a0683de3b027f7e8631b29d0716e6690fb2176693240c93edc91056d03caccb01b09351d2e01ba35f8e74a",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.9-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.9-final"
+        },
+        "sysPrefix": "/Users/kotsmile/src/stuff/newsthxbot/.venv",
+        "fileHash": "3f4b389402103255772d113accabca6969d428b19e2844b2fc7e22864c7d79f3e2c0a308c06e7c51c6edf964210e8a39d31d8593fd85058a20fab7fa2e549b23",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/kotsmile/src/stuff/newsthxbot/.venv/bin/python3"
+  }
+}

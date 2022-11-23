@@ -4,6 +4,14 @@
     "json",
     "javascript",
     "typescript",
-    "markdown"
-  ]
+    "markdown",
+    "solidity"
+  ],
+  "languageserver": {
+    "sol": {
+      "command": "solc --base-path . --include-path node_modules",
+      "rootPatterns": ["package.json"],
+      "filetypes": ["sol"]
+    }
+  }
 }

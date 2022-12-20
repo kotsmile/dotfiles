@@ -1,0 +1,17 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "json",
+    "javascript",
+    "typescript",
+    "markdown",
+    "solidity"
+  ],
+  "languageserver": {
+    "sol": {
+      "command": "solc --base-path . --include-path node_modules",
+      "rootPatterns": ["package.json"],
+      "filetypes": ["sol"]
+    }
+  }
+}

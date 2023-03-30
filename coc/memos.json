@@ -51,7 +51,7 @@
         "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
         "fileHash": "93ee9edb8e2dfa28b700a076d95d2dc8c6fd9cf7485990168b1ec323e7bdf62c0274b3225fd1c40043fc5346f039be276f5ed4cd6430f9b6d53b5ebc6fdeca18"
       },
-      "expiry": 1665773858842
+      "expiry": 1678270413404
     },
     "/usr/bin/python.v3": {
       "data": {
@@ -126,7 +126,7 @@
         "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "45c5b37a32e4e98bf2c556a2637dff2b5470c4b4de54336192530255919b2f8ae97a49e357eb815c6a957ab71d1651c96941b44e4c6e6a0f6eba84108cd90dec"
       },
-      "expiry": 1665773858864
+      "expiry": 1678270413407
     },
     "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
       "data": {
@@ -181,7 +181,7 @@
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
         "architecture": 3,
-        "path": "/Users/kotsmile/projs/katy-help/.env/bin/python3",
+        "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python3",
         "version": {
           "options": {
             "loose": false,
@@ -198,13 +198,13 @@
           "build": [],
           "version": "3.10.7-final"
         },
-        "sysPrefix": "/Users/kotsmile/projs/katy-help/.env",
-        "fileHash": "89e65d418b7c71e1c037ab11ee7d0bf6a0e318cf24529ed1cf09e4f8db5c5e5d547df333e5e18ba4e9f93c53f4089c980ea6967a25605e68d4b3f308c9590e88",
+        "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+        "fileHash": "f650abf9f63960f22ceafcf6dc631dcbf3a4aa75d506537963b0e335763a88f065b1e51572d49187b162b2c342d5254924b12502389ca59752752df7d5f1e522",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/Users/kotsmile/projs/katy-help/.env/bin/python",
+        "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python",
         "version": {
           "options": {
             "loose": false,
@@ -221,13 +221,13 @@
           "build": [],
           "version": "3.10.7-final"
         },
-        "sysPrefix": "/Users/kotsmile/projs/katy-help/.env",
-        "fileHash": "bea67ad8eab020c31b8aa681a795b513c578355aff4fe412c05b5abb6a24c7f6120e98b33cbab6a7d7cfe88135e7d10e85a55cd1d950ac1102273fe5d8a3eee3",
+        "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+        "fileHash": "4b0ca487a4eadf722012b513774ab809a442f9164e5c0408ad0a585628c61a4c802e4cc75935914f7e3f710d04c41c27c889e345c75b70a87654f16d46060443",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/Users/kotsmile/projs/katy-help/.env/bin/python3",
+        "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python",
         "version": {
           "options": {
             "loose": false,
@@ -244,8 +244,8 @@
           "build": [],
           "version": "3.10.7-final"
         },
-        "sysPrefix": "/Users/kotsmile/projs/katy-help/.env",
-        "fileHash": "89e65d418b7c71e1c037ab11ee7d0bf6a0e318cf24529ed1cf09e4f8db5c5e5d547df333e5e18ba4e9f93c53f4089c980ea6967a25605e68d4b3f308c9590e88",
+        "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+        "fileHash": "4b0ca487a4eadf722012b513774ab809a442f9164e5c0408ad0a585628c61a4c802e4cc75935914f7e3f710d04c41c27c889e345c75b70a87654f16d46060443",
         "type": "Unknown"
       }
     ],
@@ -258,20 +258,20 @@
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.9.10-final",
+        "raw": "3.10.7-final",
         "major": 3,
-        "minor": 9,
-        "patch": 10,
+        "minor": 10,
+        "patch": 7,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.9.10-final"
+        "version": "3.10.7-final"
       },
-      "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
-      "fileHash": "8810c9d71c3c0349d82a296c6390c1bf63a232a0bcb0e568e77f3e42259c5409f3fc1eee20d2ef3bf6787588741830efee4b7b539ba465b796f5310607f6e461",
+      "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+      "fileHash": "93ee9edb8e2dfa28b700a076d95d2dc8c6fd9cf7485990168b1ec323e7bdf62c0274b3225fd1c40043fc5346f039be276f5ed4cd6430f9b6d53b5ebc6fdeca18",
       "type": "Unknown",
-      "displayName": "Python 3.9.10 64-bit"
+      "displayName": "Python 3.10.7 64-bit"
     },
     "/opt/homebrew/opt/python@3.9/bin/python3.9.interpreter.Details.v7": {
       "data": {
@@ -326,12 +326,12 @@
         "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
         "fileHash": "e52ad9f6bfe347f955261252f3eccfb7ded9e6efe63747f0b2ecbae663838f8627ac8dc927d9eb307ae361bb48c276c9cecb5fd986a63188b90b7ace06d09b59"
       },
-      "expiry": 1665773858920
+      "expiry": 1678270413573
     },
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
       {
         "architecture": 3,
-        "path": "/Users/kotsmile/projs/katy-help/.env/bin/python",
+        "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python",
         "version": {
           "options": {
             "loose": false,
@@ -348,13 +348,13 @@
           "build": [],
           "version": "3.10.7-final"
         },
-        "sysPrefix": "/Users/kotsmile/projs/katy-help/.env",
-        "fileHash": "bea67ad8eab020c31b8aa681a795b513c578355aff4fe412c05b5abb6a24c7f6120e98b33cbab6a7d7cfe88135e7d10e85a55cd1d950ac1102273fe5d8a3eee3",
+        "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+        "fileHash": "4b0ca487a4eadf722012b513774ab809a442f9164e5c0408ad0a585628c61a4c802e4cc75935914f7e3f710d04c41c27c889e345c75b70a87654f16d46060443",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/Users/kotsmile/projs/katy-help/.env/bin/python3",
+        "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python3",
         "version": {
           "options": {
             "loose": false,
@@ -371,13 +371,13 @@
           "build": [],
           "version": "3.10.7-final"
         },
-        "sysPrefix": "/Users/kotsmile/projs/katy-help/.env",
-        "fileHash": "89e65d418b7c71e1c037ab11ee7d0bf6a0e318cf24529ed1cf09e4f8db5c5e5d547df333e5e18ba4e9f93c53f4089c980ea6967a25605e68d4b3f308c9590e88",
+        "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+        "fileHash": "f650abf9f63960f22ceafcf6dc631dcbf3a4aa75d506537963b0e335763a88f065b1e51572d49187b162b2c342d5254924b12502389ca59752752df7d5f1e522",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/Users/kotsmile/projs/katy-help/.env/bin/python3.10",
+        "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python3.10",
         "version": {
           "options": {
             "loose": false,
@@ -394,8 +394,8 @@
           "build": [],
           "version": "3.10.7-final"
         },
-        "sysPrefix": "/Users/kotsmile/projs/katy-help/.env",
-        "fileHash": "27933bc95b2ee03ebcfb84d9d246023f366c2da674a5995dced622e86ba8af4f7ec47635015aeffe42e1e8e3f9c7ab15cbefdb9a92ffeef8dfcb3d37c1f16b9e",
+        "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+        "fileHash": "adbc9de7d8afce4d8aadce28ea2baf2c335c753e042b6dc0766ca5ca6cf20047edf0c3aebe3969d251745e66de8e7adeba485afd26128c267a9868429868daef",
         "type": "Unknown"
       },
       {
@@ -520,7 +520,7 @@
         "displayName": "Python 3.10.7 64-bit",
         "hash": "93ee9edb8e2dfa28b700a076d95d2dc8c6fd9cf7485990168b1ec323e7bdf62c0274b3225fd1c40043fc5346f039be276f5ed4cd6430f9b6d53b5ebc6fdeca18-863f9c579614053a7f96aaa7497668d5"
       },
-      "expiry": 1665773858984
+      "expiry": 1678270413646
     },
     "/usr/bin/python.interpreter.displayName.v7": {
       "data": {
@@ -534,7 +534,7 @@
         "displayName": "Python 3.8.9 64-bit",
         "hash": "e52ad9f6bfe347f955261252f3eccfb7ded9e6efe63747f0b2ecbae663838f8627ac8dc927d9eb307ae361bb48c276c9cecb5fd986a63188b90b7ace06d09b59-2044498b9cf070c60e9eebdc179bba49"
       },
-      "expiry": 1665773858988
+      "expiry": 1678270413799
     },
     "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
       "data": {
@@ -578,7 +578,7 @@
           "displayName": "Python 3.10.7 64-bit"
         }
       },
-      "expiry": 1665773859011
+      "expiry": 1678270413795
     },
     "/usr/bin/python.interpreter.Details.v7": {
       "data": {
@@ -638,7 +638,7 @@
           "displayName": "Python 3.8.9 64-bit"
         }
       },
-      "expiry": 1665773859022
+      "expiry": 1678270413824
     },
     "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
       "data": {
@@ -1692,7 +1692,7 @@
     },
     "InterpreterAutoSeletionRule-currentPath": {
       "architecture": 3,
-      "path": "/Users/kotsmile/projs/katy-help/.env/bin/python3",
+      "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python",
       "version": {
         "options": {
           "loose": false,
@@ -1709,8 +1709,8 @@
         "build": [],
         "version": "3.10.7-final"
       },
-      "sysPrefix": "/Users/kotsmile/projs/katy-help/.env",
-      "fileHash": "89e65d418b7c71e1c037ab11ee7d0bf6a0e318cf24529ed1cf09e4f8db5c5e5d547df333e5e18ba4e9f93c53f4089c980ea6967a25605e68d4b3f308c9590e88",
+      "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+      "fileHash": "4b0ca487a4eadf722012b513774ab809a442f9164e5c0408ad0a585628c61a4c802e4cc75935914f7e3f710d04c41c27c889e345c75b70a87654f16d46060443",
       "type": "Unknown"
     },
     "InterpreterAutoSeletionRule-system": {
@@ -2134,7 +2134,7 @@
         "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
         "fileHash": "f363d46469f170f59ac17bbe35af14536aac915666eca261d7463d3891a08a3a6deddac6d9801fbab30c035413aa353766d8ee6fc61853681b01ace876d63537"
       },
-      "expiry": 1665773858862
+      "expiry": 1678270413401
     },
     "/Users/kotsmile/projs/katy-help/.env/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -2154,7 +2154,7 @@
         "displayName": "Python 3.9.14 64-bit",
         "hash": "45c5b37a32e4e98bf2c556a2637dff2b5470c4b4de54336192530255919b2f8ae97a49e357eb815c6a957ab71d1651c96941b44e4c6e6a0f6eba84108cd90dec-3a4502f004c80fbdc02c31216c10ae51"
       },
-      "expiry": 1665773858986
+      "expiry": 1678270413811
     },
     "/Users/kotsmile/projs/katy-help/.env/bin/python.interpreter.Details.v7": {
       "data": {
@@ -2215,7 +2215,7 @@
           "displayName": "Python 3.9.14 64-bit"
         }
       },
-      "expiry": 1665773859017
+      "expiry": 1678270413834
     },
     "/Users/kotsmile/projs/katy-help/.env/bin/python3.interpreter.displayName.v7": {
       "data": {
@@ -2223,6 +2223,180 @@
         "hash": "89e65d418b7c71e1c037ab11ee7d0bf6a0e318cf24529ed1cf09e4f8db5c5e5d547df333e5e18ba4e9f93c53f4089c980ea6967a25605e68d4b3f308c9590e88-7a15197526307279142e500827c654bc"
       },
       "expiry": 1665773859029
+    },
+    "/opt/homebrew/opt/python@3.10/bin/python3.10.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/opt/python@3.10/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.7-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.7-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+        "fileHash": "36901f013c61c3cff9f872a5d4897077b4c527342bf9902ba693ebe3e1c1e2e59271c85514da8a8f68b798387d1de343751a4fc3587457f08ab685fdad08e8a2"
+      },
+      "expiry": 1678270413417
+    },
+    "/opt/homebrew/opt/python@3.10/bin/python3.10.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.7 64-bit",
+        "hash": "36901f013c61c3cff9f872a5d4897077b4c527342bf9902ba693ebe3e1c1e2e59271c85514da8a8f68b798387d1de343751a4fc3587457f08ab685fdad08e8a2-089ea0d2308956f0f46d890a5e210cf9"
+      },
+      "expiry": 1678270413524
+    },
+    "/opt/homebrew/opt/python@3.10/bin/python3.10.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "36901f013c61c3cff9f872a5d4897077b4c527342bf9902ba693ebe3e1c1e2e59271c85514da8a8f68b798387d1de343751a4fc3587457f08ab685fdad08e8a2",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/opt/python@3.10/bin/python3.10",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.10.7-final",
+            "major": 3,
+            "minor": 10,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.10.7-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+          "fileHash": "36901f013c61c3cff9f872a5d4897077b4c527342bf9902ba693ebe3e1c1e2e59271c85514da8a8f68b798387d1de343751a4fc3587457f08ab685fdad08e8a2",
+          "type": "Unknown",
+          "displayName": "Python 3.10.7 64-bit"
+        }
+      },
+      "expiry": 1678270413587
+    },
+    "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python3.10.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.7-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.7-final"
+        },
+        "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+        "fileHash": "adbc9de7d8afce4d8aadce28ea2baf2c335c753e042b6dc0766ca5ca6cf20047edf0c3aebe3969d251745e66de8e7adeba485afd26128c267a9868429868daef"
+      },
+      "expiry": 1678270497885
+    },
+    "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.7-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.7-final"
+        },
+        "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+        "fileHash": "f650abf9f63960f22ceafcf6dc631dcbf3a4aa75d506537963b0e335763a88f065b1e51572d49187b162b2c342d5254924b12502389ca59752752df7d5f1e522"
+      },
+      "expiry": 1678270497916
+    },
+    "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.7-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.7-final"
+        },
+        "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+        "fileHash": "4b0ca487a4eadf722012b513774ab809a442f9164e5c0408ad0a585628c61a4c802e4cc75935914f7e3f710d04c41c27c889e345c75b70a87654f16d46060443"
+      },
+      "expiry": 1678270497905
+    },
+    "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.7 64-bit",
+        "hash": "4b0ca487a4eadf722012b513774ab809a442f9164e5c0408ad0a585628c61a4c802e4cc75935914f7e3f710d04c41c27c889e345c75b70a87654f16d46060443-49cb38f76d89cdff66754b13a0fad729"
+      },
+      "expiry": 1678270498034
+    },
+    "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "4b0ca487a4eadf722012b513774ab809a442f9164e5c0408ad0a585628c61a4c802e4cc75935914f7e3f710d04c41c27c889e345c75b70a87654f16d46060443",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/kotsmile/projs/analyse/univ3/.venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.10.7-final",
+            "major": 3,
+            "minor": 10,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.10.7-final"
+          },
+          "sysPrefix": "/Users/kotsmile/projs/analyse/univ3/.venv",
+          "fileHash": "4b0ca487a4eadf722012b513774ab809a442f9164e5c0408ad0a585628c61a4c802e4cc75935914f7e3f710d04c41c27c889e345c75b70a87654f16d46060443",
+          "type": "Unknown",
+          "displayName": "Python 3.10.7 64-bit"
+        }
+      },
+      "expiry": 1678270498098
     }
   },
   "coc-python|/Users/kotsmile/src/stuff/python-google-parse": {
@@ -4292,5 +4466,187 @@
         "type": "Venv"
       }
     ]
+  },
+  "@yaegassy/coc-volar|/Users/kotsmile/projs/cookies-landing": {
+    "coc-volar-ts-server-path": "/Users/kotsmile/src/dotfiles/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib"
+  },
+  "@yaegassy/coc-volar|/Users/kotsmile/main/frameworks/nuxt3-example": {
+    "coc-volar-ts-server-path": "/Users/kotsmile/src/dotfiles/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib"
+  },
+  "coc-python|/Users/kotsmile/leha-repos": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:50f1f935f73fb1a3d71bb6dceb2119de": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:50f1f935f73fb1a3d71bb6dceb2119de": []
+  },
+  "coc-python|/Users/kotsmile/projs/custdev/neonomad/app-refactor-cp/app2": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:243df82007914aa9d97b2a364d908f2f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:243df82007914aa9d97b2a364d908f2f": []
+  },
+  "coc-python|/Users/kotsmile/projs/custdev/neonomad/app-refactor-cp": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:243df82007914aa9d97b2a364d908f2f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:243df82007914aa9d97b2a364d908f2f": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kotsmile/projs/custdev/neonomad/app-refactor-cp": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.7-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.7-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+      "fileHash": "93ee9edb8e2dfa28b700a076d95d2dc8c6fd9cf7485990168b1ec323e7bdf62c0274b3225fd1c40043fc5346f039be276f5ed4cd6430f9b6d53b5ebc6fdeca18",
+      "type": "Unknown",
+      "displayName": "Python 3.10.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/kotsmile/projs/custdev/neonomad/backend-trading-view": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:b4f2d880247a5ab2faa8ffde583ec9d2": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:b4f2d880247a5ab2faa8ffde583ec9d2": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kotsmile/projs/custdev/neonomad/backend-trading-view": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.7-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.7-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+      "fileHash": "93ee9edb8e2dfa28b700a076d95d2dc8c6fd9cf7485990168b1ec323e7bdf62c0274b3225fd1c40043fc5346f039be276f5ed4cd6430f9b6d53b5ebc6fdeca18",
+      "type": "Unknown",
+      "displayName": "Python 3.10.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/kotsmile/main/blockchain-tools/examples-evm-ext": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:eb7de72c1a620db9f522c4ef5c404b40": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:eb7de72c1a620db9f522c4ef5c404b40": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kotsmile/main/blockchain-tools/examples-evm-ext": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.7-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.7-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+      "fileHash": "93ee9edb8e2dfa28b700a076d95d2dc8c6fd9cf7485990168b1ec323e7bdf62c0274b3225fd1c40043fc5346f039be276f5ed4cd6430f9b6d53b5ebc6fdeca18",
+      "type": "Unknown",
+      "displayName": "Python 3.10.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "@yaegassy/coc-volar|/Users/kotsmile/projs/test-app": {
+    "coc-volar-ts-server-path": "/Users/kotsmile/src/dotfiles/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib"
+  },
+  "coc-python|/Users/kotsmile/projs/fraction": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:777ddd20f6d3ed6f36ed15d0d5828565": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:777ddd20f6d3ed6f36ed15d0d5828565": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kotsmile/projs/fraction": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.7-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.7-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+      "fileHash": "93ee9edb8e2dfa28b700a076d95d2dc8c6fd9cf7485990168b1ec323e7bdf62c0274b3225fd1c40043fc5346f039be276f5ed4cd6430f9b6d53b5ebc6fdeca18",
+      "type": "Unknown",
+      "displayName": "Python 3.10.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "@yaegassy/coc-volar|/Users/kotsmile/pet/nuxt3-template": {
+    "coc-volar-ts-server-path": "/Users/kotsmile/src/dotfiles/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib"
+  },
+  "@yaegassy/coc-volar|/Users/kotsmile/projs/ui": {
+    "coc-volar-ts-server-path": "/Users/kotsmile/src/dotfiles/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib"
+  },
+  "@yaegassy/coc-volar|/Users/kotsmile/projs/etc/ulyana-test-project": {
+    "coc-volar-ts-server-path": "/Users/kotsmile/src/dotfiles/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib"
+  },
+  "@yaegassy/coc-volar|/Users/kotsmile/projs/my-project": {
+    "coc-volar-ts-server-path": "/Users/kotsmile/src/dotfiles/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib"
+  },
+  "coc-python|/Users/kotsmile/projs/analyse/univ3/src": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:cb6432361e06eca1506d5e54021400e2": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:cb6432361e06eca1506d5e54021400e2": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kotsmile/projs/analyse/univ3/src": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.7-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.7-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+      "fileHash": "93ee9edb8e2dfa28b700a076d95d2dc8c6fd9cf7485990168b1ec323e7bdf62c0274b3225fd1c40043fc5346f039be276f5ed4cd6430f9b6d53b5ebc6fdeca18",
+      "type": "Unknown",
+      "displayName": "Python 3.10.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
   }
 }

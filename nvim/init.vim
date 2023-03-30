@@ -1,5 +1,6 @@
 let mapleader = " " 
 
+
 filetype on
 filetype indent on
 filetype plugin on
@@ -9,7 +10,8 @@ set encoding=UTF-8
 syntax on
 set nocompatible
 set hlsearch
-set number relativenumber
+" set number relativenumber
+set number
 set laststatus=2
 set vb
 set ruler
@@ -49,8 +51,11 @@ autocmd FileType netrw setl bufhidden=delete
 
 " plug 
 call plug#begin()
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'sigmasd/deno-nvim'
+    Plug 'dcampos/nvim-snippy'
+    Plug 'leafgarland/typescript-vim'
     "> Must Hav
-	Plug 'preservim/nerdtree'
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
     Plug 'vim-airline/vim-airline'" https://github.com/vim-airline/vim-airline
     Plug 'ctrlpvim/ctrlp.vim'      " https://github.com/ctrlpvim/ctrlp.vim
@@ -59,7 +64,9 @@ call plug#begin()
     Plug 'airblade/vim-gitgutter'  " https://github.com/airblade/vim-gitgutter
     Plug 'mkitt/tabline.vim'       " https://github.com/mkitt/tabline.vim
 	Plug 'jiangmiao/auto-pairs'
-    
+    Plug 'preservim/nerdtree'
+
+    Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
     "> Go
     Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' } " https://github.com/fatih/vim-go
     Plug 'neoclide/coc.nvim', {'branch': 'release'}     " https://github.com/neoclide/coc.nvim
@@ -303,6 +310,11 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 
-" TREE
-nnoremap <leader>b :NERDTreeToggle<CR>
+" nnoremap <leader>b :NERDTreeToggle<CR>
 nnoremap <leader>f <cmd>Telescope find_files<cr>
+
+" TREE
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>

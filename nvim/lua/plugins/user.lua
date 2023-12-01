@@ -63,5 +63,27 @@ return {
     end,
     opts = {},
     dependencies = { "nvim-tree/nvim-web-devicons" },
+  },
+  {
+    'edluffy/hologram.nvim',
+    event = "UIEnter",
+    config = function()
+      require('hologram').setup{
+          auto_display = true -- WIP automatic markdown image display, may be prone to breaking
+      }
+    end,
+    opts = {},
+  },
+  {
+    "ellisonleao/gruvbox.nvim",
+    name = "gruvbox",
+    opts = {
+      italic = {
+        strings = true,
+        comments = true,
+        folds = true,
+        operations = false,
+      }
+    }
   }
 }

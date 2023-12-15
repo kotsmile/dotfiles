@@ -43,6 +43,8 @@ return {
     },
   },
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.lsp.lsp-inlayhints-nvim"},
+  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   {
       "loctvl842/monokai-pro.nvim",
@@ -85,5 +87,15 @@ return {
         operations = false,
       }
     }
+  },
+  {
+    "nyoom-engineering/oxocarbon.nvim",
+    name = "oxocarbon",
+    -- config = function()
+      -- require("monokai-pro").setup {
+      --     filter = "spectrum", -- classic | octagon | pro | machine | ristretto | spectrum
+      -- }
+      -- end
+    -- }
   }
 }

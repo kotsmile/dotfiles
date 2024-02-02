@@ -1,16 +1,26 @@
 return {
-  {
-     "folke/todo-comments.nvim",
-     dependecies = { "nvim-lua/plenary.nvim" },
-     opts = {},
-     events = "User AstroFile",
-     cmd = { "TodoQuickFix" },
-  },
+  -- {
+  --    "folke/todo-comments.nvim",
+  --    dependecies = { "nvim-lua/plenary.nvim" },
+  --    opts = {},
+  --    events = "User AstroFile",
+  --    cmd = { "TodoQuickFix" },
+  -- },
   -- { "rose-pine/neovim", name = "rose-pine", opts = {}  },
   -- { 
   --     "AlexvZyl/nordic.nvim",
   --     name = "nordic",
   --     config = function() require("nordic").load() end,
+  -- },
+  -- TODO: kotsmile
+  -- {
+  --   "folke/todo-comments.nvim",
+  --   dependencies = { "nvim-lua/plenary.nvim" },
+  --   opts = {
+  --     -- your configuration comes here
+  --     -- or leave it empty to use the default settings
+  --     -- refer to the configuration section below
+  --   }
   -- },
   {
     "catppuccin/nvim",
@@ -44,7 +54,7 @@ return {
   },
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.lsp.lsp-inlayhints-nvim"},
-  { import = "astrocommunity.pack.python" },
+  -- { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   {
       "loctvl842/monokai-pro.nvim",
@@ -88,14 +98,4 @@ return {
       }
     }
   },
-  {
-    "nyoom-engineering/oxocarbon.nvim",
-    name = "oxocarbon",
-    -- config = function()
-      -- require("monokai-pro").setup {
-      --     filter = "spectrum", -- classic | octagon | pro | machine | ristretto | spectrum
-      -- }
-      -- end
-    -- }
-  }
 }

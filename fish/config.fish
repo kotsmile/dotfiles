@@ -8,7 +8,9 @@ end
 
 # pnpm
 set -gx PNPM_HOME "/Users/kotsmile/Library/pnpm"
-set -gx PATH "$PNPM_HOME" $PATH
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
 # pnpm end
 
 bind -M insert \cf accept-autosuggestion
@@ -22,10 +24,14 @@ end
 
 export PATH="$PATH:/Users/kotsmile/.foundry/bin"
 
-# use default version of node
+# # use default version of node
 nvm use 16 1> /dev/null
-nvm use 18 1> /dev/null
+nvm use 20 1> /dev/null
 
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+function files -d "Opens ~/gotbit-mm/files"
+  open ~/gotbit-mm/files
+end

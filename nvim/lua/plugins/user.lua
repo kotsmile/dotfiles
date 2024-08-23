@@ -1,101 +1,89 @@
+vim.opt.guicursor = ""
+-- vim.api.nvim_set_keymap('i', '<C-f>', 'copilot#Accept("<CR>")', {expr=true, silent=true})
+vim.g.neovide_cursor_animation_length = 0
+vim.g.neovide_text_contrast = 0.0
+vim.g.neovide_text_gamma = 0.0
+require('lspconfig').gleam.setup({})
+
+-- vim.cmd('highlight MatchParen guibg=#303446')
+---@type LazySpec
 return {
-  -- {
-  --    "folke/todo-comments.nvim",
-  --    dependecies = { "nvim-lua/plenary.nvim" },
-  --    opts = {},
-  --    events = "User AstroFile",
-  --    cmd = { "TodoQuickFix" },
-  -- },
-  -- { "rose-pine/neovim", name = "rose-pine", opts = {}  },
-  -- { 
-  --     "AlexvZyl/nordic.nvim",
-  --     name = "nordic",
-  --     config = function() require("nordic").load() end,
-  -- },
-  -- TODO: kotsmile
-  -- {
-  --   "folke/todo-comments.nvim",
-  --   dependencies = { "nvim-lua/plenary.nvim" },
-  --   opts = {
-  --     -- your configuration comes here
-  --     -- or leave it empty to use the default settings
-  --     -- refer to the configuration section below
-  --   }
-  -- },
+  {
+    "supermaven-inc/supermaven-nvim",
+    lazy = false,
+    config = function()
+      require("supermaven-nvim").setup({
+        keymaps = {
+          accept_suggestion = "<C-f>",
+        }
+      })
+    end,
+  },
+  { "indent-blankline.nvim", enabled = false },
+--  { "rebelot/heirline.nvim", enabled = false },
+  { "lewis6991/gitsigns.nvim", enabled = false },
   {
     "catppuccin/nvim",
     name = "catppuccin",
-    opts = {
-      integrations = {
-        alpha = true,
-        aerial = true,
-        dap = { enabled = true, enable_ui = true },
-        mason = true,
-        neotree = true,
-        notify = true,
-        nvimtree = false,
-        semantic_tokens = true,
-        symbols_outline = true,
-        telescope = true,
-        ts_rainbow = false,
-        which_key = true,
-      },
-    },
-  },
-  {
-    "nvim-telescope/telescope.nvim",
-    optional = true,
-    opts = {
-      highlight = {
-        enable = true,
-        additional_vim_regex_highlighting = false,
-      },
-    },
-  },
-  "AstroNvim/astrocommunity",
-  { import = "astrocommunity.lsp.lsp-inlayhints-nvim"},
-  -- { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.colorscheme.catppuccin" },
-  {
-      "loctvl842/monokai-pro.nvim",
-    name = "monokai-pro",
-    config = function()
-      require("monokai-pro").setup {
-          filter = "spectrum", -- classic | octagon | pro | machine | ristretto | spectrum
-      }
-      end
-  },
-  {
-    'stevearc/oil.nvim',
-    event = "UIEnter",
-    config = function()
-      require("oil").setup {}
-
-      vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+    opts = { flavour = "macchiato" },
+    init = function()
+      vim.cmd([[
+        highlight NeoTreeNormal guibg=#1e2031
+        highlight NeoTreeNormalNC guibg=#1e2031
+        " highlight NeoTreeNormal guibg=#282c3c
+        " highlight NeoTreeNormalNC guibg=#282c3c
+      ]])
     end,
-    opts = {},
-    dependencies = { "nvim-tree/nvim-web-devicons" },
   },
+  { "Mofiqul/dracula.nvim" },
+  -- { 
+  --   "ellisonleao/gruvbox.nvim",
+  --   init = function()
+  --     vim.cmd([[
+  --       highlight NeoTreeNormal guibg=#222222
+  --       highlight NeoTreeNormalNC guibg=#222222
+  --     ]])
+  --   end,
+  -- } ,
   {
-    'edluffy/hologram.nvim',
-    event = "UIEnter",
-    config = function()
-      require('hologram').setup{
-          auto_display = true -- WIP automatic markdown image display, may be prone to breaking
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = function()
+      return {
+        filesystem = {
+          filtered_items = {
+            visible = true
+          }
+        }
       }
     end,
-    opts = {},
   },
+  { "max397574/better-escape.nvim", enabled = false },
   {
-    "ellisonleao/gruvbox.nvim",
-    name = "gruvbox",
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    lazy = false,
     opts = {
-      italic = {
-        strings = true,
-        comments = true,
-        folds = true,
-        operations = false,
-      }
     }
   },
+  { "smithbm2316/centerpad.nvim", enabled = true, lazy = false },
+  {
+    'renerocksai/telekasten.nvim',
+    dependencies = {'nvim-telescope/telescope.nvim'},
+    enabled = true,
+    lazy = false
+  },
+  -- {
+  --   "williamboman/mason.nvim",
+  --   opts = function(_, opts)
+  --     vim.list_extend(opts.ensure_installed, {
+  --       "gleam",
+  --     })
+  --   end,
+  -- },
+  -- {
+  --   "github/copilot.vim",
+  --   lazy = false,
+  -- },
 }
+
+

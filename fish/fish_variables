@@ -8,11 +8,12 @@ SETUVAR --export API_ETH:9CJBZ9Q7IWGUEEETVWZGYDJ65SDI3ACZ53
 SETUVAR --export API_FTM:88GU22YWTAPDDQPK67GY43BFVEXEV1MYHZ
 SETUVAR --export API_POLYGON:ZW2WEECYADRSPNB88RR9TXWWSGRXNWBKD5
 SETUVAR --export DOCKER:registry\x2eproduction\x2ebc\x2egotbitgames\x2eco
-SETUVAR --export EDITOR:/opt/homebrew/bin/nvim
+SETUVAR --export EDITOR:/Users/kotsmile/bin/nvim
 SETUVAR --export FIREBASE_PROJECT:vodka\x2dcocktails
 SETUVAR --export FIREBASE_TOKEN:1//0cs4nfddpffORCgYIARAAGAwSNwF\x2dL9Ir_\x2d2DDyFof7tFfC_5OIqP8l4utpZmpYYF1m2jeJ3lsfldoGbCXdWNY25\x2d7AU1RBs9b7Y
 SETUVAR --export GIT:https\x3a//gitlab\x2ebc\x2egotbit\x2eio/bc/pepega\x2dteam/
 SETUVAR --export MORALIS_ID:ebe8b40baed5c46d475fafec
+SETUVAR --export OPENAI_API_KEY:sk\x2dproj\x2dNrQJXIWiw8Qf1IHPJEXgT3BlbkFJ7hrvqQJlUiWSXtIFIOIn
 SETUVAR --export --path PATH:/Users/kotsmile/\x2elocal/bin\x1e/Users/kotsmile/Library/pnpm\x1e/Users/kotsmile/\x2ecargo/bin\x1e/opt/homebrew/bin\x1e/Users/kotsmile/\x2eyarn/bin\x1e/usr/local/bin\x1e/usr/bin\x1e/bin\x1e/usr/sbin\x1e/sbin\x1e/Applications/VMware\x20Fusion\x20Tech\x20Preview\x2eapp/Contents/Public
 SETUVAR --export PROD_FIREBASE_PROJECT:vodka\x2dcocktails
 SETUVAR --export PROD_FIREBASE_TOKEN:1//0cs4nfddpffORCgYIARAAGAwSNwF\x2dL9Ir_\x2d2DDyFof7tFfC_5OIqP8l4utpZmpYYF1m2jeJ3lsfldoGbCXdWNY25\x2d7AU1RBs9b7Y
@@ -27,7 +28,8 @@ SETUVAR __fish_initialized:3400
 SETUVAR _fisher_jethrokuan_2F_z_files:/Users/kotsmile/\x2econfig/fish/functions/__z\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/__z_add\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/__z_clean\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/__z_complete\x2efish\x1e/Users/kotsmile/\x2econfig/fish/conf\x2ed/z\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:/Users/kotsmile/\x2econfig/fish/functions/fisher\x2efish\x1e/Users/kotsmile/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:/Users/kotsmile/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/nvm\x2efish\x1e/Users/kotsmile/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/Users/kotsmile/\x2econfig/fish/completions/nvm\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/nvm\x2efish\x1ejethrokuan/z
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/nvm\x2efish\x1ejethrokuan/z\x1erealiserad/fish\x2dai
+SETUVAR _fisher_realiserad_2F_fish_2D_ai_files:/Users/kotsmile/\x2econfig/fish/functions/_fish_ai_autocomplete\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/_fish_ai_autocomplete_or_fix\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/_fish_ai_codify\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/_fish_ai_codify_or_explain\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/_fish_ai_explain\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/_fish_ai_fix\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/fish_ai_bug_report\x2efish\x1e/Users/kotsmile/\x2econfig/fish/functions/fish_ai_switch_context\x2efish\x1e/Users/kotsmile/\x2econfig/fish/conf\x2ed/fish_ai\x2efish
 SETUVAR fish_color_autosuggestion:969896
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:c397d8
@@ -57,6 +59,6 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/Users/kotsmile/bin\x1e/Users/kotsmile/main/opt/v\x1e/Users/kotsmile/gotbit/connections\x1e/Users/kotsmile/\x2ezokrates/bin\x1e/Users/kotsmile/connections\x1e/Users/kotsmile/\x2elocal/share/solana/install/active_release/bin\x1e/Users/kotsmile/\x2elocal/bin\x1e/Users/kotsmile/\x2ecargo/bin\x1e/opt/homebrew/bin\x1e/Users/kotsmile/\x2eyarn/bin
+SETUVAR fish_user_paths:/Users/kotsmile/gotbit/scripts\x1e/Users/kotsmile/bin\x1e/Users/kotsmile/main/opt/v\x1e/Users/kotsmile/gotbit/connections\x1e/Users/kotsmile/\x2ezokrates/bin\x1e/Users/kotsmile/connections\x1e/Users/kotsmile/\x2elocal/share/solana/install/active_release/bin\x1e/Users/kotsmile/\x2elocal/bin\x1e/Users/kotsmile/\x2ecargo/bin\x1e/opt/homebrew/bin\x1e/Users/kotsmile/\x2eyarn/bin
 SETUVAR nvm_data:/Users/kotsmile/\x2elocal/share/nvm
 SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist

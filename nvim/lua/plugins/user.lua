@@ -10,6 +10,7 @@ require('lspconfig').gleam.setup({})
 return {
   {
     "supermaven-inc/supermaven-nvim",
+    enabled = false,
     lazy = false,
     config = function()
       require("supermaven-nvim").setup({
@@ -19,9 +20,9 @@ return {
       })
     end,
   },
-  { "indent-blankline.nvim", enabled = false },
---  { "rebelot/heirline.nvim", enabled = false },
-  { "lewis6991/gitsigns.nvim", enabled = false },
+  { "indent-blankline.nvim",   enabled = false },
+  --  { "rebelot/heirline.nvim", enabled = false },
+  { "lewis6991/gitsigns.nvim", enabled = true },
   {
     "catppuccin/nvim",
     name = "catppuccin",
@@ -36,7 +37,7 @@ return {
     end,
   },
   { "Mofiqul/dracula.nvim" },
-  -- { 
+  -- {
   --   "ellisonleao/gruvbox.nvim",
   --   init = function()
   --     vim.cmd([[
@@ -68,7 +69,7 @@ return {
   { "smithbm2316/centerpad.nvim", enabled = true, lazy = false },
   {
     'renerocksai/telekasten.nvim',
-    dependencies = {'nvim-telescope/telescope.nvim'},
+    dependencies = { 'nvim-telescope/telescope.nvim' },
     enabled = true,
     lazy = false
   },
@@ -85,5 +86,3 @@ return {
   --   lazy = false,
   -- },
 }
-
-

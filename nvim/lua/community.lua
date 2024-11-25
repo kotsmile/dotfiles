@@ -11,5 +11,6 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.gleam" },
   { import = "astrocommunity.pack.elm" },
+  -- { import = "astrocommunity.pack.go" },
   -- import/override with your plugins folder
 }

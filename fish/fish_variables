@@ -8,7 +8,7 @@ SETUVAR --export API_ETH:9CJBZ9Q7IWGUEEETVWZGYDJ65SDI3ACZ53
 SETUVAR --export API_FTM:88GU22YWTAPDDQPK67GY43BFVEXEV1MYHZ
 SETUVAR --export API_POLYGON:ZW2WEECYADRSPNB88RR9TXWWSGRXNWBKD5
 SETUVAR --export DOCKER:registry\x2eproduction\x2ebc\x2egotbitgames\x2eco
-SETUVAR --export EDITOR:/Users/kotsmile/bin/nvim
+SETUVAR --export EDITOR:/opt/homebrew/bin/nvim
 SETUVAR --export FIREBASE_PROJECT:vodka\x2dcocktails
 SETUVAR --export FIREBASE_TOKEN:1//0cs4nfddpffORCgYIARAAGAwSNwF\x2dL9Ir_\x2d2DDyFof7tFfC_5OIqP8l4utpZmpYYF1m2jeJ3lsfldoGbCXdWNY25\x2d7AU1RBs9b7Y
 SETUVAR --export GIT:https\x3a//gitlab\x2ebc\x2egotbit\x2eio/bc/pepega\x2dteam/
@@ -60,6 +60,6 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/Users/kotsmile/go/bin\x1e/Users/kotsmile/gotbit/scripts\x1e/Users/kotsmile/bin\x1e/Users/kotsmile/main/opt/v\x1e/Users/kotsmile/gotbit/connections\x1e/Users/kotsmile/\x2ezokrates/bin\x1e/Users/kotsmile/connections\x1e/Users/kotsmile/\x2elocal/share/solana/install/active_release/bin\x1e/Users/kotsmile/\x2elocal/bin\x1e/Users/kotsmile/\x2ecargo/bin\x1e/opt/homebrew/bin\x1e/Users/kotsmile/\x2eyarn/bin
+SETUVAR fish_user_paths:/opt/homebrew/opt/postgresql\x4015/bin\x1e/Users/kotsmile/go/bin\x1e/Users/kotsmile/gotbit/scripts\x1e/Users/kotsmile/bin\x1e/Users/kotsmile/main/opt/v\x1e/Users/kotsmile/gotbit/connections\x1e/Users/kotsmile/\x2ezokrates/bin\x1e/Users/kotsmile/connections\x1e/Users/kotsmile/\x2elocal/share/solana/install/active_release/bin\x1e/Users/kotsmile/\x2elocal/bin\x1e/Users/kotsmile/\x2ecargo/bin\x1e/opt/homebrew/bin\x1e/Users/kotsmile/\x2eyarn/bin
 SETUVAR nvm_data:/Users/kotsmile/\x2elocal/share/nvm
 SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist

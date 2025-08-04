@@ -7,9 +7,9 @@ end
 
 
 # pnpm
-set -gx PNPM_HOME "/Users/kotsmile/Library/pnpm"
+set -gx PNPM_HOME /Users/kotsmile/Library/pnpm
 if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
 
@@ -19,19 +19,22 @@ function ll --wraps=ls --description 'List contents of directory using long form
     exa -lah $argv
 end
 
+function zellij --wraps=zellij --description 'Opens a main zellij session'
+    zellij attach main
+end
+
+# function zellijm --description 'Opens a main zellij session'
+#   zellij attach main 
+# end
+
 
 # starship init fish | source
 
-export PATH="$PATH:/Users/kotsmile/.foundry/bin"
+# export PATH="$PATH:/Users/kotsmile/.foundry/bin"
 
 # # use default version of node
-nvm use 16 1> /dev/null
-nvm use 20 1> /dev/null
+# nvm use 16 1> /dev/null
+nvm use 20 1>/dev/null
 
-# bun
-set --export BUN_INSTALL "$HOME/.bun"
-set --export PATH $BUN_INSTALL/bin $PATH
-
-function files -d "Opens ~/gotbit-mm/files"
-  open ~/gotbit-mm/files
-end
+set -Ux ATAC_KEY_BINDINGS "/Users/kotsmile/.config/atac/key_bindings.toml"
+set -Ux RAINFROG_CONFIG "/Users/kotsmile/.config"

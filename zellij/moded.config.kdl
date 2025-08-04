@@ -21,10 +21,10 @@ keybinds clear-defaults=true {
     }
     pane {
         bind "Alt p" { SwitchToMode "Normal"; }
-        bind "h" "Left" { MoveFocus "Left"; }
-        bind "l" "Right" { MoveFocus "Right"; }
-        bind "j" "Down" { MoveFocus "Down"; }
-        bind "k" "Up" { MoveFocus "Up"; }
+        // bind "h" "Left" { MoveFocus "Left"; }
+        // bind "l" "Right" { MoveFocus "Right"; }
+        // bind "j" "Down" { MoveFocus "Down"; }
+        // bind "k" "Up" { MoveFocus "Up"; }
         bind "p" { SwitchFocus; }
         bind "n" { NewPane; SwitchToMode "Normal"; }
         bind "d" { NewPane "Down"; SwitchToMode "Normal"; }

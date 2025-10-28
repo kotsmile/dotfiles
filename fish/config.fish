@@ -20,7 +20,7 @@ function ll --wraps=ls --description 'List contents of directory using long form
 end
 
 function zellij --wraps=zellij --description 'Opens a main zellij session'
-    zellij attach main
+    /Users/kotsmile/.cargo/bin/zellij attach main || /Users/kotsmile/.cargo/bin/zellij -s main
 end
 
 # function zellijm --description 'Opens a main zellij session'
@@ -38,3 +38,7 @@ nvm use 20 1>/dev/null
 
 set -Ux ATAC_KEY_BINDINGS "/Users/kotsmile/.config/atac/key_bindings.toml"
 set -Ux RAINFROG_CONFIG "/Users/kotsmile/.config"
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

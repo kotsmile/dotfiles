@@ -15,4 +15,7 @@ mv ~/.zshrc ~/.zshrc.b | true
 ln -s "$(pwd)/.zshrc" ~/.zshrc
 mv ~/.zfunc ~/.zfunc.b | true
 ln -s "$(pwd)/.zfunc" ~/.zfunc
+mv ~/.oh-my-zsh ~/.oh-my-zsh.b | true
+ln -s "$(pwd)/.oh-my-zsh" ~/.oh-my-zsh
+
 sudo chsh -s /bin/zsh

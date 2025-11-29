@@ -31,10 +31,24 @@ return {
             },
           },
         },
+
         tailwindcss = {},
+
         gopls = {
+          -- Use Arcadia-patched gopls via ya
+          cmd = { "ya", "tool", "gopls", "serve" },
           settings = {
             gopls = {
+              -- For some versions of gopls absolute paths are required:
+              arcadiaIndexDirs = {
+                vim.fn.expand("~/arcadia/noc/puncher"),
+              },
+              expandWorkspaceToModule = false,
+              -- semanticTokens = true,
+              -- staticcheck = true,
+              usePlaceholders = false,
+
+              -- Your existing hints config
               hints = {
                 assignVariableTypes = false,
                 compositeLiteralFields = false,
@@ -48,9 +62,18 @@ return {
           },
         },
       },
+
       setup = {
         tailwindcss = function(_, opts)
-          opts.filetypes = { "css", "scss", "typescript", "analog", "ag", "astro", "typescriptreact" }
+          opts.filetypes = {
+            "css",
+            "scss",
+            "typescript",
+            "analog",
+            "ag",
+            "astro",
+            "typescriptreact",
+          }
         end,
       },
     },

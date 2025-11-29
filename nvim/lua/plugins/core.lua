@@ -1,48 +1,11 @@
--- since this is just an example spec, don't actually load anything here and return an empty spec
--- stylua: ignore
--- if true then return {} end
-
--- every spec file under the "plugins" directory will be loaded automatically by lazy.nvim
---
--- In your plugin files, you can:
--- * add extra plugins
--- * disable/enabled LazyVim plugins
--- * override the configuration of LazyVim plugins
 return {
-  -- add gruvbox
-  -- { "ellisonleao/gruvbox.nvim" },
-  -- {"rebelot/kanagawa.nvim"},
-  {
-    "tiagovla/tokyodark.nvim",
-    opts = {
-        -- custom options here
-    },
-    config = function(_, opts)
-        require("tokyodark").setup(opts) -- calling setup is optional
-        vim.cmd [[colorscheme tokyodark]]
-    end,
-  },
-
-
-  -- Configure LazyVim to load gruvbox
-  -- {
-  --  "LazyVim/LazyVim",
-  --  opts = {
-  --    colorscheme = "kanagawa",
-  --  },
-  -- },
-
-  -- disable trouble
   -- { "folke/trouble.nvim", enabled = false },
-
-  -- add symbols-outline
   {
     "simrat39/symbols-outline.nvim",
     cmd = "SymbolsOutline",
     keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
     config = true,
   },
-
   -- add telescope-fzf-native
   {
     "telescope.nvim",
@@ -54,8 +17,6 @@ return {
       end,
     },
   },
-
-  -- add more treesitter parsers
   {
     "nvim-treesitter/nvim-treesitter",
     -- use latest
@@ -91,8 +52,6 @@ return {
       require("nvim-treesitter.configs").setup(opts)
     end,
   },
-
-  -- add any tools you want to have installed below
   {
     "williamboman/mason.nvim",
     opts = {

@@ -79,3 +79,12 @@ vim.keymap.set("n", "zR", require("ufo").openAllFolds)
 vim.keymap.set("n", "zM", require("ufo").closeAllFolds)
 
 -- vim.api.nvim_set_keymap("i", "<C-j>", 'copilot#Accept("<CR>")', { expr = true, silent = true })
+--
+-- golang
+vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "Go to Implementation" })
+vim.keymap.set("n", "gr", vim.lsp.buf.references, { desc = "Go to References" })
+
+--- bufferline
+vim.keymap.set("n", "<leader>bc", function()
+  Snacks.bufdelete()
+end, { desc = "Delete Buffer" })

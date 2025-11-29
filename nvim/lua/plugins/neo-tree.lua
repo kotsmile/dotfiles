@@ -9,7 +9,7 @@ return {
         },
       },
       window = {
-        position = "right",
+        position = "left",
         mappings = {
           ["J"] = function(state)
             local tree = state.tree

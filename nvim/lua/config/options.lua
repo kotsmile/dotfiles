@@ -40,7 +40,7 @@ vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 
 vim.opt.updatetime = 50
-vim.opt.colorcolumn = "120"
+-- vim.opt.colorcolumn = "120"
 
 local float = { focusable = true, style = "minimal", border = "rounded" }
 
@@ -82,3 +82,32 @@ vim.o.foldenable = true
 
 -- change root dir for grep
 vim.g.root_spec = { "cwd" }
+vim.opt.guicursor = ""
+
+-- set exrc " разрешаем подгружать дополнительные .vimrc из папок по месту
+-- set secure " запрещаем подгружать .vimrc не от нашего пользователя/группы (Unix)
+--
+-- " включаем форматирование кода и импортов при сохранении
+-- let g:go_fmt_autosave = 1
+-- let g:go_imports_autosave = 1
+
+-- vim.g.go_fmt_autosave = 1
+-- vim.g.go_imports_autosave = 1
+-- vim.o.exrc = true
+-- vim.o.secure = true
+--
+
+vim.opt.fillchars = {
+  vert = "█",
+  horiz = "▁",
+}
+
+-- vim.opt.fillchars = {
+--   eob = " ", -- Character for end-of-buffer blank lines (hides the '~')
+--   msgsep = "-", -- Separator character for messages
+--   fold = " ", -- Character used for folded lines
+--   foldopen = "v", -- Character for open folds
+--   foldclose = ">", -- Character for closed folds
+--   foldsep = ":", -- Separator character within folds
+--   diff = " ", -- Character for diff filler lines
+-- }

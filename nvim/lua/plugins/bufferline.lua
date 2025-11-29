@@ -1,4 +1,7 @@
 return {
   "akinsho/bufferline.nvim",
-  enabled = false,
+  enabled = true,
+  options = {
+    -- separator_style = { "", "" }, -- "slant"  | "slope" | "thick" | "thin" | { "any", "any" },
+  },
 }

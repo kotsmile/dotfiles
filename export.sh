@@ -15,3 +15,4 @@ mv ~/.zshrc ~/.zshrc.b | true
 ln -s "$(pwd)/.zshrc" ~/.zshrc
 mv ~/.zfunc ~/.zfunc.b | true
 ln -s "$(pwd)/.zfunc" ~/.zfunc
+sudo chsh -s /bin/zsh

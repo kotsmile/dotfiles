@@ -2727,4 +2727,3 @@ color15 #a5adcb
 # # white (fg4/fg3)
 # color7                  #a89984
 # color15                 #bdae93
-map shift+enter send_text all \e\r

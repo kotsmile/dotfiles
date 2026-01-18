@@ -25,8 +25,27 @@ set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
 
 echo "Setting up YA"
-set --export GOROOT "$(ya tool go --print-toolchain-path)"
+# set --export GOROOT "$(ya tool go --print-toolchain-path)"
 set --export PATH $GOROOT/bin $PATH
 set --export EDITOR nvim
-set --export ARCADIA /Users/kotsmile/arcadia
-set --export NODE_EXTRA_CA_CERTS /etc/ssl/certs/YandexInternalCA.pem
+# set --export ARCADIA /Users/kotsmile/arcadia
+# set --export NODE_EXTRA_CA_CERTS /etc/ssl/certs/YandexInternalCA.pem
+
+# Auto-activate/deactivate Python virtual environment
+function __auto_activate_venv --on-variable PWD --description 'Auto activate/deactivate Python venv'
+    # Check if there's a venv in the current directory
+    if test -d venv/bin -a -f venv/bin/activate.fish
+        # Only activate if not already in this venv
+        if not set -q VIRTUAL_ENV; or test "$VIRTUAL_ENV" != (pwd)/venv
+            source venv/bin/activate.fish
+        end
+    else
+        # No venv directory found, deactivate if we're in a venv
+        if set -q VIRTUAL_ENV
+            deactivate
+        end
+    end
+end
+
+# Run on shell startup
+__auto_activate_venv

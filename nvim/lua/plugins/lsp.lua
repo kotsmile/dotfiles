@@ -42,6 +42,7 @@ return {
               -- For some versions of gopls absolute paths are required:
               arcadiaIndexDirs = {
                 vim.fn.expand("~/arcadia/noc/puncher"),
+                vim.fn.expand("~/arcadia/noc"),
               },
               expandWorkspaceToModule = false,
               -- semanticTokens = true,

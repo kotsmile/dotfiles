@@ -28,6 +28,8 @@ keybinds clear-defaults=true {
         bind "z" { TogglePaneFrames; SwitchToMode "normal"; }
     }
     tab {
+        bind "H" { MoveTab "Left"; }
+        bind "L" { MoveTab "Right"; }
         bind "left" { GoToPreviousTab; }
         bind "down" { GoToNextTab; }
         bind "up" { GoToPreviousTab; }

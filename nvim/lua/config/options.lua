@@ -83,6 +83,7 @@ vim.o.foldenable = true
 -- change root dir for grep
 vim.g.root_spec = { "cwd" }
 vim.opt.guicursor = ""
+vim.b.autoformat = true
 
 -- set exrc " разрешаем подгружать дополнительные .vimrc из папок по месту
 -- set secure " запрещаем подгружать .vimrc не от нашего пользователя/группы (Unix)

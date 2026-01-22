@@ -1,16 +1,17 @@
 macos_option_as_alt yes
 
 # font_family      IBM Plex Mono
+#
 # font_family      Hack Nerd Font Mono
 # bold_font        Hack Nerd Font Mono Bold
 # italic_font      Hack Nerd Font Mono Italic
 # bold_italic_font Hack Nerd Font Mono Bold Italic
 
 # MONOLISA setup
-font_family      MonoLisa Custom
-adjust_column_width -1
-font_features MonoLisa-Medium +zero +ss04 +ss07 +ss08 +ss09
-font_features MonoLisa-MediumItalic +zero +ss04 +ss07 +ss08 +ss09
+# font_family      MonoLisa Custom
+# adjust_column_width -1
+# font_features MonoLisa-Medium +zero +ss04 +ss07 +ss08 +ss09
+# font_features MonoLisa-MediumItalic +zero +ss04 +ss07 +ss08 +ss09
 
 # 0xProto
 # font_family Hack Nerd Font Mono
@@ -2726,4 +2727,3 @@ color15 #a5adcb
 # # white (fg4/fg3)
 # color7                  #a89984
 # color15                 #bdae93
-map shift+enter send_text all \e\r

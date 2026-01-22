@@ -30,3 +30,7 @@ set --export PATH $GOROOT/bin $PATH
 set --export EDITOR nvim
 set --export ARCADIA /Users/kotsmile/arcadia
 set --export NODE_EXTRA_CA_CERTS /etc/ssl/certs/YandexInternalCA.pem
+
+function note --description 'Opens in nvim note.md'
+    /opt/homebrew/bin/nvim /Users/kotsmile/note.md
+end

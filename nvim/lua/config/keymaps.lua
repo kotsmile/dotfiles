@@ -83,6 +83,8 @@ vim.keymap.set("n", "zM", require("ufo").closeAllFolds)
 -- golang
 vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "Go to Implementation" })
 vim.keymap.set("n", "gr", vim.lsp.buf.references, { desc = "Go to References" })
+vim.keymap.set("i", "<C-k>", vim.lsp.buf.signature_help, { desc = "Signature Help" })
+vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, { desc = "Signature Help" })
 
 --- bufferline
 vim.keymap.set("n", "<leader>bc", function()

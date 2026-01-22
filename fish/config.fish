@@ -27,7 +27,7 @@ set fish_cursor_insert block
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
 set --export EDITOR nvim
-set --export TERM=xterm-256color
+set TERM xterm-256color
 
 if string match -q '*yndx*' (hostname)
     echo "Yandex here! Setting up YA..."

@@ -16,6 +16,11 @@ function zell --wraps=zellij --description 'Opens a main zellij session'
     /Users/kotsmile/.cargo/bin/zellij attach main || /Users/kotsmile/.cargo/bin/zellij -s main
 end
 function note --description 'Opens in nvim note.md'
+    if not test -d /Users/kotsmile/notes
+        echo "Cloning notes..."
+        git clone https://github.com/kotsmile/notes.git /Users/kotsmile/notes
+    end
+
     echo "Pulling notes..."
     pushd /Users/kotsmile/notes
     git pull

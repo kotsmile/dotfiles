@@ -16,7 +16,19 @@ function zell --wraps=zellij --description 'Opens a main zellij session'
     /Users/kotsmile/.cargo/bin/zellij attach main || /Users/kotsmile/.cargo/bin/zellij -s main
 end
 function note --description 'Opens in nvim note.md'
+    echo "Pulling notes..."
+    pushd /Users/kotsmile/notes
+    git pull
+    popd
+
     /opt/homebrew/bin/nvim /Users/kotsmile/notes/note.md
+
+    echo "Pushing notes..."
+    pushd /Users/kotsmile/notes
+    git add note.md
+    git commit -m "Update note.md $(date)"
+    git push
+    popd
 end
 
 nvm use 20 1>/dev/null

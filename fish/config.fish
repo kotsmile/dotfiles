@@ -9,34 +9,8 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 
 bind -M insert \cf accept-autosuggestion
-function ll --wraps=ls --description 'List contents of directory using long format'
-    exa -lah $argv
-end
-function zell --wraps=zellij --description 'Opens a main zellij session'
-    /Users/kotsmile/.cargo/bin/zellij attach main || /Users/kotsmile/.cargo/bin/zellij -s main
-end
-function note --description 'Opens in nvim note.md'
-    if not test -d /Users/kotsmile/notes
-        echo "Cloning notes..."
-        git clone https://github.com/kotsmile/notes.git /Users/kotsmile/notes
-    end
 
-    echo "Pulling notes..."
-    pushd /Users/kotsmile/notes
-    git pull
-    popd
-
-    /opt/homebrew/bin/nvim /Users/kotsmile/notes/note.md
-
-    echo "Pushing notes..."
-    pushd /Users/kotsmile/notes
-    git add note.md
-    git commit -m "Update note.md $(date)"
-    git push
-    popd
-end
-
-nvm use 20 1>/dev/null
+nvm use 25 1>/dev/null
 
 set fish_cursor_default block
 set fish_cursor_insert block
@@ -52,18 +26,6 @@ if string match -q '*yndx*' (hostname)
     set --export ARCADIA /Users/kotsmile/arcadia
     set --export NODE_EXTRA_CA_CERTS /etc/ssl/certs/YandexInternalCA.pem
     set --export PATH $GOROOT/bin $PATH
-end
-
-function __auto_activate_venv --on-variable PWD --description 'Auto activate/deactivate Python venv'
-    if test -d venv/bin -a -f venv/bin/activate.fish
-        if not set -q VIRTUAL_ENV; or test "$VIRTUAL_ENV" != (pwd)/venv
-            source venv/bin/activate.fish
-        end
-    else
-        if set -q VIRTUAL_ENV
-            deactivate
-        end
-    end
 end
 
 __auto_activate_venv

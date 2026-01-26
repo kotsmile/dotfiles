@@ -16,7 +16,7 @@ function zell --wraps=zellij --description 'Opens a main zellij session'
     /Users/kotsmile/.cargo/bin/zellij attach main || /Users/kotsmile/.cargo/bin/zellij -s main
 end
 function note --description 'Opens in nvim note.md'
-    /opt/homebrew/bin/nvim /Users/kotsmile/note.md
+    /opt/homebrew/bin/nvim /Users/kotsmile/notes/note.md
 end
 
 nvm use 20 1>/dev/null

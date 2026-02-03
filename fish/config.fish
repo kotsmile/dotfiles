@@ -20,7 +20,7 @@ set --export PATH $BUN_INSTALL/bin $PATH
 set --export EDITOR nvim
 set TERM xterm-256color
 
-if string match -q '*yndx*' (hostname)
+function ynit -d "Initializes yandex"
     echo "Yandex here! Setting up YA..."
     set --export GOROOT "$(ya tool go --print-toolchain-path)"
     set --export ARCADIA /Users/kotsmile/arcadia
@@ -28,4 +28,16 @@ if string match -q '*yndx*' (hostname)
     set --export PATH $GOROOT/bin $PATH
 end
 
+if string match -q '*yndx*' (hostname)
+    ynit
+end
+
 __auto_activate_venv
+
+function tun_ya_prod -d "Tunnels to yandex production"
+    ssh -L 6443:localhost:6443 $YANDEX_PROD -N
+end
+
+function ssh_ya_prod -d "SSH to yandex production"
+    ssh $YANDEX_PROD
+end

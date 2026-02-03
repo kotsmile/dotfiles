@@ -90,3 +90,29 @@ vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, { desc = "Signature Hel
 vim.keymap.set("n", "<leader>bc", function()
   Snacks.bufdelete()
 end, { desc = "Delete Buffer" })
+
+local diagnostic_goto = function(next, severity)
+  return function()
+    if severity then
+      vim.diagnostic.goto_next({
+        severity = vim.diagnostic.severity[severity],
+      })
+    else
+      if next then
+        vim.diagnostic.goto_next()
+      else
+        vim.diagnostic.goto_prev()
+      end
+    end
+  end
+end
+
+vim.keymap.set("n", "<leader>dc", vim.diagnostic.open_float, { desc = "Line Diagnostics" })
+vim.keymap.set("n", "<leader>dl", function()
+  vim.diagnostic.setloclist({ scope = "workspace" })
+  vim.cmd("lopen")
+end, { desc = "Diagnostics (workspace)" })
+vim.keymap.set("n", "<leader>de", diagnostic_goto(true, "ERROR"), { desc = "Next Error" })
+vim.keymap.set("n", "<leader>dE", diagnostic_goto(false, "ERROR"), { desc = "Prev Error" })
+vim.keymap.set("n", "<leader>dw", diagnostic_goto(true, "WARN"), { desc = "Next Warning" })
+vim.keymap.set("n", "<leader>dW", diagnostic_goto(false, "WARN"), { desc = "Prev Warning" })

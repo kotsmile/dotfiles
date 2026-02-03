@@ -43,6 +43,8 @@ return {
               arcadiaIndexDirs = {
                 vim.fn.expand("~/arcadia/noc/puncher"),
                 vim.fn.expand("~/arcadia/noc/topka"),
+                vim.fn.expand("~/arcadia/noc/go"),
+                vim.fn.expand("~/arcadia/vendor/github.com/jackc/pgx"),
               },
               expandWorkspaceToModule = false,
               -- semanticTokens = true,

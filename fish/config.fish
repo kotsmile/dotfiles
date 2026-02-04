@@ -28,11 +28,20 @@ function ynit -d "Initializes yandex"
     set --export PATH $GOROOT/bin $PATH
 end
 
+function __auto_zellij
+    if set -q ZELLIJ
+        return
+    end
+
+    zellij attach --create main
+end
+
 if string match -q '*yndx*' (hostname)
     ynit
 end
 
 __auto_activate_venv
+__auto_zellij
 
 function tun_ya_prod -d "Tunnels to yandex production"
     ssh -L 6443:localhost:6443 $YANDEX_PROD -N

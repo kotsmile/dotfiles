@@ -45,6 +45,8 @@ return {
                 vim.fn.expand("~/arcadia/noc/topka"),
                 vim.fn.expand("~/arcadia/noc/go"),
                 vim.fn.expand("~/arcadia/vendor/github.com/jackc/pgx"),
+                vim.fn.expand("~/arcadia/infra/idm/core_service"),
+                vim.fn.expand("~/arcadia/cloud/bitbucket/private-api/yandex/cloud"),
               },
               expandWorkspaceToModule = false,
               -- semanticTokens = true,

@@ -6,6 +6,10 @@ echo "init zellij"
 mv ~/.config/zellij ~/.config/zellij.b | true
 ln -s "$(pwd)/zellij" ~/.config/zellij
 
+echo "init tmux"
+mv ~/.config/tmux ~/.config/tmux.b | true
+ln -s "$(pwd)/tmux" ~/.config/tmux
+
 echo "init kitty"
 mv ~/.config/kitty ~/.config/kitty.b | true
 ln -s "$(pwd)/kitty" ~/.config/kitty

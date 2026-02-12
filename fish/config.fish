@@ -41,7 +41,7 @@ if string match -q '*yndx*' (hostname)
 end
 
 __auto_activate_venv
-__auto_zellij
+# __auto_zellij
 
 function tun_ya_prod -d "Tunnels to yandex production"
     ssh -L 6443:localhost:6443 $YANDEX_PROD -N

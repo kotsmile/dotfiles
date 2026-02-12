@@ -1,6 +1,6 @@
 return {
   "TheNoeTrevino/no-go.nvim",
-  enabled = true,
+  enabled = false,
   dependencies = { "nvim-treesitter/nvim-treesitter" },
   ft = "go",
   opts = {

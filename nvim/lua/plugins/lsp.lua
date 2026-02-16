@@ -36,7 +36,7 @@ return {
 
         gopls = {
           -- Use Arcadia-patched gopls via ya
-          cmd = { "ya", "tool", "gopls", "serve" },
+          -- cmd = { "ya", "tool", "gopls", "serve" },
           settings = {
             gopls = {
               -- For some versions of gopls absolute paths are required:

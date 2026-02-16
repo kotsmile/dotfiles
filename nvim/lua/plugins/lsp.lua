@@ -1,5 +1,30 @@
 local lspconfig = require("lspconfig")
 
+local gopls = {
+  settings = {
+    gopls = {
+      expandWorkspaceToModule = false,
+      staticcheck = true,
+      usePlaceholders = false,
+
+      hints = {
+        assignVariableTypes = false,
+        compositeLiteralFields = false,
+        compositeLiteralTypes = false,
+        constantValues = false,
+        functionTypeParameters = false,
+        parameterNames = false,
+        rangeVariableTypes = false,
+      },
+    },
+  },
+}
+
+local ok, work = pcall(require, "work")
+if ok then
+  gopls = work.gopls
+end
+
 return {
   {
     "neovim/nvim-lspconfig",
@@ -34,38 +59,7 @@ return {
 
         tailwindcss = {},
 
-        gopls = {
-          -- Use Arcadia-patched gopls via ya
-          -- cmd = { "ya", "tool", "gopls", "serve" },
-          settings = {
-            gopls = {
-              -- For some versions of gopls absolute paths are required:
-              arcadiaIndexDirs = {
-                vim.fn.expand("~/arcadia/noc/puncher"),
-                vim.fn.expand("~/arcadia/noc/topka"),
-                vim.fn.expand("~/arcadia/noc/go"),
-                vim.fn.expand("~/arcadia/vendor/github.com/jackc/pgx"),
-                vim.fn.expand("~/arcadia/infra/idm/core_service"),
-                vim.fn.expand("~/arcadia/cloud/bitbucket/private-api/yandex/cloud"),
-              },
-              expandWorkspaceToModule = false,
-              -- semanticTokens = true,
-              -- staticcheck = true,
-              usePlaceholders = false,
-
-              -- Your existing hints config
-              hints = {
-                assignVariableTypes = false,
-                compositeLiteralFields = false,
-                compositeLiteralTypes = false,
-                constantValues = false,
-                functionTypeParameters = false,
-                parameterNames = false,
-                rangeVariableTypes = false,
-              },
-            },
-          },
-        },
+        gopls = gopls,
       },
 
       setup = {

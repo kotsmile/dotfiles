@@ -14,12 +14,10 @@ echo "init kitty"
 mv ~/.config/kitty ~/.config/kitty.b | true
 ln -s "$(pwd)/kitty" ~/.config/kitty
 
-echo "init zsh"
-mv ~/.zshrc ~/.zshrc.b | true
-ln -s "$(pwd)/.zshrc" ~/.zshrc
-mv ~/.zfunc ~/.zfunc.b | true
-ln -s "$(pwd)/.zfunc" ~/.zfunc
-mv ~/.oh-my-zsh ~/.oh-my-zsh.b | true
-ln -s "$(pwd)/.oh-my-zsh" ~/.oh-my-zsh
+echo "init fish"
+mv ~/.config/fish ~/.config/fish.b | true
+ln -s "$(pwd)/fish" ~/.config/fish
 
-sudo chsh -s /bin/zsh
+echo "init tmux"
+mv ~/.tmux ~/.tmux.b | true
+ln -s "$(pwd)/tmux" ~/.tmux

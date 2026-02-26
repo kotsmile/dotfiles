@@ -48,6 +48,10 @@ vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, fl
 vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help, float)
 
 vim.api.nvim_set_hl(0, "FloatBorder", { fg = "#d8bd92" })
+vim.api.nvim_set_hl(0, "DiffAdd", { bg = "#2e4a3a" })
+vim.api.nvim_set_hl(0, "DiffDelete", { bg = "#4a2e2e" })
+vim.api.nvim_set_hl(0, "DiffChange", { bg = "#3a3a2e" })
+vim.api.nvim_set_hl(0, "DiffText", { bg = "#4a4a2e" })
 
 vim.filetype.add({
   extension = {

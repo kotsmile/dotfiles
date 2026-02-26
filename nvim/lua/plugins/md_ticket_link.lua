@@ -1,5 +1,6 @@
 return {
   {
+    enabled = false,
     -- local module from your config
     "md_ticket_link",
     dev = true,

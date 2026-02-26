@@ -116,3 +116,5 @@ vim.keymap.set("n", "<leader>de", diagnostic_goto(true, "ERROR"), { desc = "Next
 vim.keymap.set("n", "<leader>dE", diagnostic_goto(false, "ERROR"), { desc = "Prev Error" })
 vim.keymap.set("n", "<leader>dw", diagnostic_goto(true, "WARN"), { desc = "Next Warning" })
 vim.keymap.set("n", "<leader>dW", diagnostic_goto(false, "WARN"), { desc = "Prev Warning" })
+
+vim.keymap.set("n", "<leader>rm", "<cmd>RenderMarkdown toggle<cr>", { desc = "Toogle markdown" })

@@ -20,33 +20,5 @@ set --export PATH $BUN_INSTALL/bin $PATH
 set --export EDITOR nvim
 set TERM xterm-256color
 
-function ynit -d "Initializes yandex"
-    echo "Yandex here! Setting up YA..."
-    set --export GOROOT "$(ya tool go --print-toolchain-path)"
-    set --export ARCADIA /Users/kotsmile/arcadia
-    set --export NODE_EXTRA_CA_CERTS /etc/ssl/certs/YandexInternalCA.pem
-    set --export PATH $GOROOT/bin $PATH
-end
-
-function __auto_zellij
-    if set -q ZELLIJ
-        return
-    end
-
-    zellij attach --create main
-end
-
-if string match -q '*yndx*' (hostname)
-    ynit
-end
-
 __auto_activate_venv
-# __auto_zellij
-
-function tun_ya_prod -d "Tunnels to yandex production"
-    ssh -L 6443:localhost:6443 $YANDEX_PROD -N
-end
-
-function ssh_ya_prod -d "SSH to yandex production"
-    ssh $YANDEX_PROD
-end
+__yandex_init

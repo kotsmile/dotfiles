@@ -100,13 +100,16 @@ end
 
 function M.run()
   if not run_cmd then
-    vim.ui.input({ prompt = "Run command: ", completion = "shellcmd" }, function(input)
-      if not input or input == "" then
-        return
-      end
-      run_cmd = input
-      M.run()
-    end)
+    local ok, input = pcall(vim.fn.input, {
+      prompt = "Run command: ",
+      cancelreturn = "\x00",
+      completion = "customlist,v:lua.require'erun'._complete",
+    })
+    if not ok or input == "\x00" or input == "" then
+      return
+    end
+    run_cmd = input
+    M.run()
     return
   end
 
@@ -121,7 +124,7 @@ function M.run()
   ensure_panel()
 
   local cwd = vim.fn.getcwd()
-  local started_at = os.date("%a %b %e %H:%M:%S")
+  local started_at = os.date("%a %b %d %H:%M:%S")
   local mode_line = '-*- directory: "' .. cwd .. '/" -*-'
   local started_line = "Started at " .. started_at
 
@@ -183,13 +186,29 @@ function M.run()
         if current_id ~= run_id then
           return
         end
-        local finished_at = os.date("%a %b %e %H:%M:%S")
+        local finished_at = os.date("%a %b %d %H:%M:%S")
+        local elapsed_ns = vim.loop.hrtime() - start_time
+        local elapsed_s = elapsed_ns / 1e9
+        local elapsed_str
+        if elapsed_s < 60 then
+          elapsed_str = string.format("%.2fs", elapsed_s)
+        elseif elapsed_s < 3600 then
+          local m = math.floor(elapsed_s / 60)
+          local s = elapsed_s - m * 60
+          elapsed_str = string.format("%dm %.2fs", m, s)
+        else
+          local h = math.floor(elapsed_s / 3600)
+          local m = math.floor((elapsed_s - h * 3600) / 60)
+          local s = elapsed_s - h * 3600 - m * 60
+          elapsed_str = string.format("%dh %dm %.2fs", h, m, s)
+        end
+
         local finish_line, hl
         if code == 0 then
-          finish_line = "Finished at " .. finished_at
+          finish_line = string.format("Finished at %s (elapsed %s)", finished_at, elapsed_str)
           hl = "ERunFinished"
         else
-          finish_line = string.format("Exited abnormally with code %d at %s", code, finished_at)
+          finish_line = string.format("Exited abnormally with code %d at %s (elapsed %s)", code, finished_at, elapsed_str)
           hl = "ERunFailed"
         end
 

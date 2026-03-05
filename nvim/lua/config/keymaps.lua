@@ -83,8 +83,8 @@ vim.keymap.set("n", "zM", require("ufo").closeAllFolds)
 -- golang
 vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "Go to Implementation" })
 vim.keymap.set("n", "gr", vim.lsp.buf.references, { desc = "Go to References" })
-vim.keymap.set("i", "<C-k>", vim.lsp.buf.signature_help, { desc = "Signature Help" })
-vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, { desc = "Signature Help" })
+-- vim.keymap.set("i", "<C-k>", vim.lsp.buf.signature_help, { desc = "Signature Help" })
+-- vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, { desc = "Signature Help" })
 
 --- bufferline
 vim.keymap.set("n", "<leader>bc", function()
@@ -118,3 +118,12 @@ vim.keymap.set("n", "<leader>dw", diagnostic_goto(true, "WARN"), { desc = "Next 
 vim.keymap.set("n", "<leader>dW", diagnostic_goto(false, "WARN"), { desc = "Prev Warning" })
 
 vim.keymap.set("n", "<leader>rm", "<cmd>RenderMarkdown toggle<cr>", { desc = "Toogle markdown" })
+
+-- neogit
+local neogit = require("neogit")
+vim.keymap.set("n", "<leader>gg", function()
+  neogit.open({ kind = "split" })
+end, { desc = "Open Neogit UI" })
+
+-- erun
+require("erun").setup()

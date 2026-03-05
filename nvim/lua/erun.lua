@@ -67,7 +67,9 @@ local function ensure_panel()
     return
   end
 
-  vim.cmd("botright 45split")
+  local prev_win = vim.api.nvim_get_current_win()
+
+  vim.cmd("belowright 30split")
   run_win = vim.api.nvim_get_current_win()
 
   if not run_buf or not vim.api.nvim_buf_is_valid(run_buf) then
@@ -76,14 +78,35 @@ local function ensure_panel()
     vim.bo[run_buf].bufhidden = "hide"
     vim.keymap.set("n", "gf", open_file_link, { buffer = run_buf, nowait = true, desc = "Open file link" })
     vim.keymap.set("n", "<CR>", open_file_link, { buffer = run_buf, nowait = true, desc = "Open file link" })
+    vim.keymap.set("n", "q", function()
+      if run_win and vim.api.nvim_win_is_valid(run_win) then
+        vim.api.nvim_win_close(run_win, true)
+        run_win = nil
+      end
+    end, { buffer = run_buf, nowait = true, desc = "Close erun panel" })
+    vim.keymap.set("n", "r", M.run, { buffer = run_buf, nowait = true, desc = "Rerun command" })
   end
 
   vim.api.nvim_win_set_buf(run_win, run_buf)
+  vim.api.nvim_set_current_win(prev_win)
+end
+
+local function scroll_to_bottom()
+  if run_win and vim.api.nvim_win_is_valid(run_win) then
+    local line_count = vim.api.nvim_buf_line_count(run_buf)
+    vim.api.nvim_win_set_cursor(run_win, { line_count, 0 })
+  end
 end
 
 function M.run()
   if not run_cmd then
-    print("No command set. Use :ERun <cmd>")
+    vim.ui.input({ prompt = "Run command: ", completion = "shellcmd" }, function(input)
+      if not input or input == "" then
+        return
+      end
+      run_cmd = input
+      M.run()
+    end)
     return
   end
 
@@ -96,9 +119,17 @@ function M.run()
   local current_id = run_id
 
   ensure_panel()
-  vim.api.nvim_buf_set_lines(run_buf, 0, -1, false, { "$ " .. run_cmd })
+
+  local cwd = vim.fn.getcwd()
+  local started_at = os.date("%a %b %e %H:%M:%S")
+  local mode_line = '-*- directory: "' .. cwd .. '/" -*-'
+  local started_line = "Started at " .. started_at
+
+  vim.api.nvim_buf_set_lines(run_buf, 0, -1, false, { mode_line, started_line, "", "$ " .. run_cmd })
   vim.api.nvim_buf_clear_namespace(run_buf, ns, 0, -1)
-  vim.api.nvim_buf_add_highlight(run_buf, ns, "ERunCmd", 0, 0, -1)
+  vim.api.nvim_buf_add_highlight(run_buf, ns, "ERunModeLine", 0, 0, -1)
+  vim.api.nvim_buf_add_highlight(run_buf, ns, "ERunStarted", 1, 0, -1)
+  vim.api.nvim_buf_add_highlight(run_buf, ns, "ERunCmd", 3, 0, -1)
 
   local start_time = vim.loop.hrtime()
 
@@ -122,6 +153,7 @@ function M.run()
             highlight_file_links(run_buf, lnum, line)
           end
         end
+        scroll_to_bottom()
       end)
     end,
 
@@ -141,6 +173,7 @@ function M.run()
             highlight_file_links(run_buf, lnum, line)
           end
         end
+        scroll_to_bottom()
       end)
     end,
 
@@ -150,14 +183,20 @@ function M.run()
         if current_id ~= run_id then
           return
         end
-        local elapsed = (vim.loop.hrtime() - start_time) / 1e9
-        local hl = code == 0 and "ERunInfoOk" or "ERunInfoFail"
-        vim.api.nvim_buf_set_lines(run_buf, -1, -1, false, {
-          "",
-          string.format("exit code: %d | took %.2fs", code, elapsed),
-        })
+        local finished_at = os.date("%a %b %e %H:%M:%S")
+        local finish_line, hl
+        if code == 0 then
+          finish_line = "Finished at " .. finished_at
+          hl = "ERunFinished"
+        else
+          finish_line = string.format("Exited abnormally with code %d at %s", code, finished_at)
+          hl = "ERunFailed"
+        end
+
+        vim.api.nvim_buf_set_lines(run_buf, -1, -1, false, { "", finish_line })
         local lnum = vim.api.nvim_buf_line_count(run_buf) - 1
         vim.api.nvim_buf_add_highlight(run_buf, ns, hl, lnum, 0, -1)
+        scroll_to_bottom()
       end)
     end,
   })
@@ -261,18 +300,23 @@ function M.setup()
   -- pre-warm executable cache in background so first <Tab> is instant
   vim.schedule(build_exe_cache)
 
-  vim.api.nvim_set_hl(0, "ERunCmd", { fg = "#DEEBFF", bold = true })
-  vim.api.nvim_set_hl(0, "ERunStdout", { fg = "#abb2bf" })
-  vim.api.nvim_set_hl(0, "ERunStderr", { fg = "#e06c75" })
-  vim.api.nvim_set_hl(0, "ERunInfoOk", { fg = "#98c379", bold = true })
-  vim.api.nvim_set_hl(0, "ERunInfoFail", { fg = "#e06c75", bold = true })
-  vim.api.nvim_set_hl(0, "ERunLink", { fg = "#61afef", underline = true })
+  vim.api.nvim_set_hl(0, "ERunModeLine", { link = "Comment", default = true })
+  vim.api.nvim_set_hl(0, "ERunStarted", { link = "DiagnosticInfo", default = true })
+  vim.api.nvim_set_hl(0, "ERunCmd", { link = "Title", default = true })
+  vim.api.nvim_set_hl(0, "ERunStdout", { link = "Normal", default = true })
+  vim.api.nvim_set_hl(0, "ERunStderr", { link = "DiagnosticError", default = true })
+  vim.api.nvim_set_hl(0, "ERunFinished", { link = "DiagnosticOk", default = true })
+  vim.api.nvim_set_hl(0, "ERunFailed", { link = "DiagnosticError", default = true })
+  vim.api.nvim_set_hl(0, "ERunLink", { link = "Underlined", default = true })
 
-  vim.api.nvim_create_user_command("Erun", function(opts)
+  local function erun_handler(opts)
     run_cmd = opts.args
     print("Run command set to: " .. run_cmd)
     M.run()
-  end, { nargs = "+", complete = M._complete })
+  end
+  local erun_opts = { nargs = "+", complete = M._complete }
+
+  vim.api.nvim_create_user_command("Erun", erun_handler, erun_opts)
 
   vim.keymap.set("n", "<leader>r", M.run)
 end

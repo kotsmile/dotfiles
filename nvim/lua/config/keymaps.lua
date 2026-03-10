@@ -125,5 +125,3 @@ vim.keymap.set("n", "<leader>gg", function()
   neogit.open({ kind = "split" })
 end, { desc = "Open Neogit UI" })
 
--- erun
-require("erun").setup()

@@ -7,6 +7,44 @@ vim.keymap.set("n", "D", "<c-d>zz")
 
 vim.keymap.set("n", "<leader>fp", "0<c-g>", { desc = "Show full file path" })
 
+-- resize windows (move border in absolute direction)
+local function win_resize(direction, amount)
+  return function()
+    local cur = vim.api.nvim_get_current_win()
+    if direction == "h" or direction == "l" then
+      -- Check if there's a window to the right
+      vim.cmd("wincmd l")
+      local has_right = vim.api.nvim_get_current_win() ~= cur
+      if has_right then
+        vim.api.nvim_set_current_win(cur)
+      end
+      -- If we're the rightmost window, invert the direction
+      if direction == "l" then
+        vim.cmd("vertical resize " .. (has_right and "+" or "-") .. amount)
+      else
+        vim.cmd("vertical resize " .. (has_right and "-" or "+") .. amount)
+      end
+    else
+      -- Check if there's a window below
+      vim.cmd("wincmd j")
+      local has_below = vim.api.nvim_get_current_win() ~= cur
+      if has_below then
+        vim.api.nvim_set_current_win(cur)
+      end
+      if direction == "j" then
+        vim.cmd("resize " .. (has_below and "+" or "-") .. amount)
+      else
+        vim.cmd("resize " .. (has_below and "-" or "+") .. amount)
+      end
+    end
+  end
+end
+
+vim.keymap.set("n", "<M-H>", win_resize("h", 10), { desc = "Move border left" })
+vim.keymap.set("n", "<M-J>", win_resize("j", 10), { desc = "Move border down" })
+vim.keymap.set("n", "<M-K>", win_resize("k", 10), { desc = "Move border up" })
+vim.keymap.set("n", "<M-L>", win_resize("l", 10), { desc = "Move border right" })
+
 -- move lines
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -119,9 +157,14 @@ vim.keymap.set("n", "<leader>dW", diagnostic_goto(false, "WARN"), { desc = "Prev
 
 vim.keymap.set("n", "<leader>rm", "<cmd>RenderMarkdown toggle<cr>", { desc = "Toogle markdown" })
 
+-- spell
+vim.keymap.set("n", "<leader>ms", function()
+  require("telescope.builtin").spell_suggest()
+end, { desc = "Spell suggestions" })
+vim.keymap.set("n", "<leader>mt", "<cmd>setlocal spell!<cr>", { desc = "Toggle spell check" })
+
 -- neogit
 local neogit = require("neogit")
 vim.keymap.set("n", "<leader>gg", function()
   neogit.open({ kind = "split" })
 end, { desc = "Open Neogit UI" })
-
